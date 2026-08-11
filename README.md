@@ -73,7 +73,9 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 **Contacto:** [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com)
 
 **LinkedIn:** [Antonio Cruz](https://www.linkedin.com/in/antonio-cruz-834750396)
+
 **Disponibilidad:** Tiempo completo  
+
 **Actualizado:** Agosto 2026
 
 </div>
