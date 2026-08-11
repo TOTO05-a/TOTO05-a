@@ -47,7 +47,7 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 ## Indicadores de GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark/&hide_border=true" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark/>" />
 </div>
 
 <div align="center">
