@@ -5,11 +5,10 @@
 ### Desarrollador Full Stack Junior en formación | San José Pinula, Guatemala
 
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=0891B2&center=true&vCenter=true&width=900&lines=Interfaces+con+HTML+CSS+y+JavaScript;Consumo+de+APIs+REST;MySQL+y+MongoDB;GitHub+Flow+y+documentacion)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=0891B2&center=true&vCenter=true&width=900&lines=Interfaces+con+HTML+CSS+y+JavaScript;MySQL+y+MongoDB;GitHub+Flow+y+documentacion)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sofia-castillo-dev)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sofia-castillo-dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sofiacastillo.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TOTO05-a)
 
 </div>
 
@@ -31,10 +30,10 @@ Desarrollador junior en formación, enfocado en desarrollo web, bases de datos r
 ## Tecnologias por area
 
 ```text
- **Frontend:** HTML, CSS, JavaScript
- **Backend:** Python, Node.js
- **Datos:** MySQL, MongoDB
- **Herramientas:** Git, GitHub, Docker, VS Code, Postman
+Frontend: HTML, CSS, JavaScript
+Backend: Python, Node.js
+Datos: MySQL, MongoDB
+Herramientas: Git, GitHub, Docker, VS Code, Postman
 
 ```
 
@@ -48,16 +47,16 @@ Desarrollador junior en formación, enfocado en desarrollo web, bases de datos r
 ## Indicadores de GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username={{TOTO05-a}}&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{TOTO05-a}}&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{TOTO05-a}}&theme=github_dark" alt="Profile details" width="98%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TOTO05-a&theme=github_dark" alt="Profile details" width="98%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={{TOTO05-a}}&theme=github-dark&hide_border=true&radius=8&area=true" alt="Activity graph" width="98%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TOTO05-a&theme=github-dark&hide_border=true&radius=8&area=true" alt="Activity graph" width="98%" />
 </div>
 
 ## Enfoque de trabajo
@@ -72,8 +71,8 @@ Desarrollador junior en formación, enfocado en desarrollo web, bases de datos r
 <div align="center">
 
 **Contacto:**  anntoniocruz7@gmail.com
-**LinkedIn:** https://chatgpt.com/c/6a75e560-fb4c-83e8-b23b-6e64624b1b97#:~:text=LinkedIn%3A-,Antonio%20Cruz,-Disponibilidad%3A%20Tiempo
-**Disponibilidad:** Remoto / Hibrido  
-**Actualizado:** Julio 2026
+**LinkedIn:** https://www.linkedin.com/in/antonio-cruz-834750396
+**Disponibilidad:** Tiempo completo  
+**Actualizado:** Agosto 2026
 
 </div>
