@@ -47,7 +47,7 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 ## Indicadores de GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub stats"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 </div>
 
@@ -69,9 +69,9 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 ---
 
 <div align="center">
+**Contacto:** [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com)
 
-**Contacto:**  anntoniocruz7@gmail.com
-**LinkedIn:** https://www.linkedin.com/in/antonio-cruz-834750396
+**LinkedIn:** [Antonio Cruz](https://www.linkedin.com/in/antonio-cruz-834750396)
 **Disponibilidad:** Tiempo completo  
 **Actualizado:** Agosto 2026
 
