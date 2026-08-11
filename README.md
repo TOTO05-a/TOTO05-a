@@ -1,61 +1,79 @@
+<div align="center">
+
 # Eduardo Antonio Cruz Bolaños
 
 ### Desarrollador Full Stack Junior en formación | San José Pinula, Guatemala
 
+
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=0891B2&center=true&vCenter=true&width=900&lines=Interfaces+con+HTML+CSS+y+JavaScript;Consumo+de+APIs+REST;MySQL+y+MongoDB;GitHub+Flow+y+documentacion)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sofia-castillo-dev)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sofia-castillo-dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sofiacastillo.dev)
+
+</div>
+
 ---
 
-## 🚀 Sobre mí
+## Sobre mi
 
 Desarrollador junior en formación, enfocado en desarrollo web, bases de datos relacionales y NoSQL, y flujo profesional de trabajo con Git y GitHub.
 
 > Busco una oportunidad de tiempo completo donde pueda aportar en proyectos reales, seguir fortaleciendo mis habilidades de desarrollo y aprender de equipos con experiencia.
 
----
 
-## 🛠️ Stack Visual
+## Stack visual
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,py,nodejs,mysql,mongodb,git,github,docker,vscode,postman" alt="Mis Tecnologías" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,py,nodejs,mysql,mongodb,git,github,docker,vscode,postman" alt="Stack principal" />
+</div>
 
-### Tecnologías por área
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python, Node.js
-- **Datos:** MySQL, MongoDB
-- **Herramientas:** Git, GitHub, Docker, VS Code, Postman
+## Tecnologias por area
 
----
+```text
+ **Frontend:** HTML, CSS, JavaScript
+ **Backend:** Python, Node.js
+ **Datos:** MySQL, MongoDB
+ **Herramientas:** Git, GitHub, Docker, VS Code, Postman
 
-## 📊 Indicadores de GitHub
+```
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de Eduardo" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=radical&hide_border=true" alt="Lenguajes más usados" />
-</p>
+## Proyectos destacados
 
----
+| Proyecto              | Descripción                                                                                                                                        | Stack            | Link                                                                |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------- |
+| Parqueadero Multisede | Diseño e implementación de una base de datos en MongoDB para gestionar la operación de una empresa de parqueaderos ubicados en múltiples ciudades. | MongoDB, mongosh | [Abrir](https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio) |
 
-## 📂 Proyectos destacados
 
-| Proyecto | Descripción | Stack | Link |
-| :--- | :--- | :--- | :--- |
-| **Parqueadero Multisede** | Diseño e implementación de una base de datos en MongoDB para gestionar la operación de una empresa de parqueaderos. | MongoDB, mongosh | [Abrir Proyecto](#) |
+## Indicadores de GitHub
 
----
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username={{TOTO05-a}}&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{TOTO05-a}}&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+</div>
 
-## ⚙️ Enfoque de trabajo
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{TOTO05-a}}&theme=github_dark" alt="Profile details" width="98%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username={{TOTO05-a}}&theme=github-dark&hide_border=true&radius=8&area=true" alt="Activity graph" width="98%" />
+</div>
+
+## Enfoque de trabajo
+
 - Analizo el requerimiento antes de comenzar a desarrollar.
 - Organizo los proyectos con una estructura clara.
 - Utilizo Git y GitHub para gestionar y documentar mis cambios.
 - Trabajo con ramas y commits descriptivos.
 - Busco validar mis cambios antes de entregarlos.
-
 ---
 
-## 🤝 Contacto
-- **LinkedIn:** [Antonio Cruz](https://linkedin.com/in/tu-usuario)
-- **Correo:** [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com)
-- **Disponibilidad:** Tiempo completo
+<div align="center">
 
-<p align="right">Actualizado: Agosto 2026</p>
+**Contacto:**  anntoniocruz7@gmail.com
+**LinkedIn:** https://chatgpt.com/c/6a75e560-fb4c-83e8-b23b-6e64624b1b97#:~:text=LinkedIn%3A-,Antonio%20Cruz,-Disponibilidad%3A%20Tiempo
+**Disponibilidad:** Remoto / Hibrido  
+**Actualizado:** Julio 2026
+
+</div>
