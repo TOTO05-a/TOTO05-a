@@ -45,10 +45,10 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 
 
 ## Indicadores de GitHub
+## Indicadores de GitHub
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 </div>
 
 <div align="center">
@@ -58,7 +58,6 @@ Herramientas: Git, GitHub, Docker, VS Code, Postman
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=TOTO05-a&theme=github-dark&hide_border=true&radius=8&area=true" alt="Activity graph" width="98%" />
 </div>
-
 ## Enfoque de trabajo
 
 - Analizo el requerimiento antes de comenzar a desarrollar.
