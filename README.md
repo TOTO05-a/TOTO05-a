@@ -1,377 +1,141 @@
-<div align="center"><svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Eduardo Antonio Cruz Bolaños - Software Developer</title>
-  <desc id="desc">Animated GitHub profile banner for Eduardo Antonio Cruz Bolaños</desc>  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#06111F"/>
-      <stop offset="48%" stop-color="#0B182E"/>
-      <stop offset="100%" stop-color="#052E2B"/>
-      <animate attributeName="x1" values="0;160;0" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="420;300;420" dur="9s" repeatCount="indefinite"/>
-    </linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#22C55E"/>
-  <stop offset="48%" stop-color="#06B6D4"/>
-  <stop offset="100%" stop-color="#A78BFA"/>
-</linearGradient>
-
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="8" result="blur"/>
-  <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.95 0 0 0 0 0.65 0 0 0 0.75 0"/>
-  <feMerge>
-    <feMergeNode/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
-</filter>
-
-<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-  <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.08"/>
-</pattern>
-
-<style>
-  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-  .sans { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
-  .orbit { transform-origin: 920px 194px; animation: orbit 15s linear infinite; }
-  .pulse { animation: pulse 2.8s ease-in-out infinite; }
-  .float { animation: float 5s ease-in-out infinite; }
-  .dash { stroke-dasharray: 14 14; animation: dash 18s linear infinite; }
-  .caret { animation: blink 1s steps(2, start) infinite; }
-
-  @keyframes orbit { to { transform: rotate(360deg); } }
-  @keyframes pulse {
-    0%,100% { opacity: .55; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.05); }
-  }
-  @keyframes float {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-12px); }
-  }
-  @keyframes dash { to { stroke-dashoffset: -280; } }
-  @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
-</style>
-
-  </defs>  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="30" fill="url(#grid)"/><path
-class="dash"
-d="M55 334C179 248 268 373 382 287C499 198 561 326 690 221C805 128 876 236 1026 105C1078 60 1121 51 1160 55"
-stroke="url(#line)"
-stroke-width="3"
-stroke-linecap="round"
-opacity="0.55"
-/>
-
-  <g opacity="0.95">
-    <text x="70" y="100" class="mono" font-size="20" fill="#22C55E">TOTO05-a@github</text><text x="70" y="166" class="sans" font-size="56" font-weight="800" fill="#F8FAFC">
-  Eduardo Antonio Cruz Bolaños
-</text>
-
-<text x="70" y="215" class="sans" font-size="30" font-weight="700" fill="#BAE6FD">
-  Software Developer · Backend &amp; Full Stack
-</text>
-
-<g transform="translate(70 250)">
-  <rect width="620" height="54" rx="14" fill="#020617" fill-opacity="0.72" stroke="#22C55E" stroke-opacity="0.45"/>
-
-  <text x="22" y="35" class="mono" font-size="21" fill="#DCFCE7">
-    Node.js + Python + PostgreSQL + MongoDB
-  </text>
-
-  <rect class="caret" x="596" y="16" width="10" height="26" fill="#22C55E"/>
-</g>
-
-<text x="70" y="347" class="sans" font-size="21" fill="#CBD5E1">
-  Guatemala · Software Development · Open to Work
-</text>
-
-  </g>  <g class="float" filter="url(#glow)">
-    <circle cx="920" cy="194" r="92" fill="#052E2B" stroke="url(#line)" stroke-width="3"/>
-    <circle cx="920" cy="194" r="58" fill="#0F172A" stroke="#22C55E" stroke-opacity=".55" stroke-width="2"/><path d="M884 194H956" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
-<path d="M902 176L884 194L902 212" stroke="#06B6D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M938 176L956 194L938 212" stroke="#A78BFA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
-<circle class="orbit" cx="920" cy="76" r="10" fill="#22C55E"/>
-<circle class="orbit" cx="1036" cy="194" r="8" fill="#06B6D4"/>
-<circle class="orbit" cx="920" cy="312" r="7" fill="#A78BFA"/>
-<circle class="orbit" cx="804" cy="194" r="9" fill="#F8FAFC"/>
-
-  </g>  <g class="pulse" opacity=".95">
-    <rect x="785" y="320" width="290" height="54" rx="14" fill="#020617" fill-opacity=".72" stroke="#38BDF8" stroke-opacity=".45"/>
-    <circle cx="817" cy="347" r="7" fill="#22C55E"/>
-    <text x="838" y="354" class="mono" font-size="18" fill="#E0F2FE">
-      building real solutions
-    </text>
-  </g>
-</svg><br><a href="https://github.com/TOTO05-a">
-<img src="https://img.shields.io/badge/GitHub-TOTO05--a-0B1220?style=flat-square&logo=github&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/antonio-cruz-834750396">
-<img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0B1220?style=flat-square&logo=linkedin&logoColor=0A66C2"/>
-</a>
-&nbsp;
-<a href="mailto:anntoniocruz7@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-0B1220?style=flat-square&logo=gmail&logoColor=EA4335"/>
-</a></div>---
+# Eduardo Antonio Cruz Bolaños
 
-<div align="center">"01 / IDENTITY"
+<div align='center'>
+  <img src='https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Backend+%26+Full+Stack;Building+solutions+that+matter' alt='Typing SVG' />
+</div>
 
-"BUILD · LEARN · SOLVE"
+<div align='center'>
+  <a href='https://github.com/TOTO05-a'>
+    <img src='https://img.shields.io/badge/GitHub-TOTO05--a-0D1117?style=for-the-badge&logo=github&logoColor=white' alt='GitHub' />
+  </a>
+  <a href='https://www.linkedin.com/in/antonio-cruz-834750396'>
+    <img src='https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white' alt='LinkedIn' />
+  </a>
+  <a href='mailto:anntoniocruz7@gmail.com'>
+    <img src='https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white' alt='Email' />
+  </a>
+</div>
 
-Desarrollo software para convertir problemas en soluciones que realmente funcionen
+<p align='center'>
+  <img src='https://img.shields.io/badge/Location-Guatemala-0B1220?style=flat-square' />
+  <img src='https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=flat-square' />
+  <img src='https://img.shields.io/badge/English-B1-06B6D4?style=flat-square' />
+</p>
 
-</div><table>
-<tr>
-<td width="60%" valign="top">Soy desarrollador de software en formación, con enfoque en backend, APIs, bases de datos y desarrollo web.
+## 👋 Sobre mí
 
-Mi experiencia se ha construido principalmente mediante proyectos académicos y personales, trabajando con diferentes tecnologías para entender cómo diseñar, construir, probar y mejorar soluciones de software.
+Soy desarrollador de software con enfoque en backend, APIs, bases de datos y desarrollo web. Me apasiona crear soluciones útiles, bien estructuradas y fáciles de mantener.
 
-Actualmente busco mi primera oportunidad profesional, donde pueda aportar lo que ya sé y seguir creciendo trabajando con proyectos y equipos reales.
+He construido gran parte de mi experiencia a través de proyectos académicos y personales, donde he trabajado con Node.js, Python, PostgreSQL, MongoDB, HTML, CSS y JavaScript para aprender a diseñar, implementar y mejorar software de principio a fin.
 
-</td><td width="40%" valign="top">LOCATION
-Guatemala
+Actualmente estoy buscando mi primera oportunidad profesional donde pueda aportar valor, seguir aprendiendo junto a equipos reales y crecer como desarrollador.
 
-FOCUS
-Backend
-APIs
-Databases
-Web
+## 🧠 Stack principal
 
-ENGLISH
-B1
+<p align='left'>
+  <img src='https://skillicons.dev/icons?i=js,nodejs,express,python,postgres,mongodb,mysql,html,css,git,github,jest' alt='Tech stack' />
+</p>
 
-STATUS
-Open to Work
+### Backend
+- JavaScript
+- Node.js
+- Express
+- Python
+- REST APIs
 
-</td>
-</tr>
-</table>---
+### Datos
+- PostgreSQL
+- MongoDB
+- MySQL
+- MongoDB Atlas
 
-<div align="center">"02 / SYSTEM"
+### Herramientas
+- Git
+- GitHub
+- Jest
+- Supertest
+- Postman
 
-TECHNOLOGIES I WORK WITH
+## 🚀 Proyectos destacados
 
-<br><img src="https://skillicons.dev/icons?i=js,nodejs,express,python,postgres,mongodb,mysql,html,css,git,github,jest" /></div><br><table>
-<tr>
-<td width="33%" valign="top">BACKEND
+### 1. Applications API
+API backend para gestión de candidatos, vacantes y solicitudes. Incluye arquitectura por capas, validación, manejo centralizado de errores y pruebas automatizadas.
 
-"JavaScript"
-"Node.js"
-"Express"
-"Python"
-"REST APIs"
+- Node.js
+- Express
+- PostgreSQL
+- Zod
+- Jest
+- Supertest
 
-</td><td width="33%" valign="top">DATA
+[Ver proyecto](https://github.com/TOTO05-a/applications-api)
 
-"PostgreSQL"
-"MongoDB"
-"MySQL"
-"MongoDB Atlas"
+### 2. Parqueadero Multisede
+Proyecto de base de datos para una empresa de parqueo con múltiples sedes, modelando relaciones entre ubicaciones, vehículos, clientes y operaciones.
 
-</td><td width="33%" valign="top">TOOLS
+- MongoDB
+- mongosh
 
-"Git"
-"GitHub"
-"Jest"
-"Supertest"
-"Postman"
+[Ver proyecto](https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)
 
-</td>
-</tr>
-</table>---
+### 3. Inventario Gamer
+Backend para gestión de inventario con persistencia en MongoDB y operaciones de productos.
 
-<div align="center">"03 / PROJECTS"
+- Node.js
+- MongoDB
+- Mongoose
 
-SELECTED WORK
+[Ver proyecto](https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)
 
-Projects where I have applied what I am learning
+### 4. Stream Music App
+Aplicación web enfocada en la organización visual y navegación de contenido musical.
 
-</div><table>
-<tr>
-<td width="50%" valign="top">"01"
+- HTML
+- CSS
+- JavaScript
 
-Applications API
+[Ver proyecto](https://github.com/TOTO05-a/Proyecto-stream-Music-App-Eduardo-Antonio-Cruz-Bola-os)
 
-Backend API for candidates, vacancies and applications
+## 🛠️ Enfoque de trabajo
 
-Built with a layered architecture, validation, centralized error handling, automated tests and PostgreSQL transactions.
+> Entender bien el problema antes de resolverlo.
 
-"Node.js" "Express"
-"PostgreSQL" "Zod"
-"Jest" "Supertest"
+Me gusta:
+- Investigar antes de decidir una solución.
+- Dividir problemas complejos en partes pequeñas.
+- Escribir código claro, testeable y fácil de mantener.
+- Aprender con proyectos reales y mejorar continuamente.
 
-"VIEW PROJECT →" (https://github.com/TOTO05-a/applications-api)
+## 📚 Actualmente estoy desarrollando
 
-</td><td width="50%" valign="top">"02"
+- Node.js y APIs REST
+- PostgreSQL
+- Testing y calidad de código
+- Arquitectura backend
+- Mejora de habilidades técnicas y de comunicación
 
-Parqueadero Multisede
+## 🎓 Educación
 
-Database project for a multi-location parking business
+- Campuslands Guatemala — 2025 - 2026 — Formación en Desarrollo de Software
+- Universidad Mariano Gálvez — 2026 — Ingeniería en Sistemas
+- Liceo Comercial Entre Valles — 2025 — Bachillerato en Ciencias y Letras con Orientación en Computación
 
-Designed with MongoDB to represent the relationships between locations, vehicles, customers and operations.
+## 📊 GitHub stats
 
-"MongoDB" "mongosh"
+<p align='center'>
+  <img src='https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=tokyonight&hide_border=true' alt='GitHub Stats' height='180' />
+  <img src='https://github-readme-streak-stats.herokuapp.com/?user=TOTO05-a&theme=tokyonight&hide_border=true' alt='GitHub Streak' height='180' />
+</p>
 
-"VIEW PROJECT →" (https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)
+## 🤝 Conectemos
 
-</td>
-</tr><tr>
-<td width="50%" valign="top">"03"
+Estoy abierto a oportunidades, colaboraciones y proyectos reales donde pueda aprender, aportar y crecer.
 
-Inventario Gamer
-
-Backend project for inventory management
-
-Node.js backend connected to MongoDB through Mongoose for persistence and product operations.
-
-"Node.js" "MongoDB"
-"Mongoose"
-
-"VIEW PROJECT →" (https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)
-
-</td><td width="50%" valign="top">"04"
-
-Stream Music App
-
-Web application focused on interface and content organization
-
-A frontend project built around navigation, visual structure and music-related content.
-
-"HTML" "CSS" "JavaScript"
-
-"VIEW PROJECT →" (https://github.com/TOTO05-a/Proyecto-stream-Music-App-Eduardo-Antonio-Cruz-Bola-os)
-
-</td>
-</tr>
-</table>---
-
-<div align="center">"04 / WORKFLOW"
-
-HOW I APPROACH A PROBLEM
-
-<br>"UNDERSTAND"
-
-↓
-
-"INVESTIGATE"
-
-↓
-
-"DESIGN"
-
-↓
-
-"BUILD"
-
-↓
-
-"TEST"
-
-↓
-
-"IMPROVE"
-
-</div><table>
-<tr>
-<td width="50%">THINK FIRST
-
-I try to understand the problem before choosing a technical solution.
-
-I investigate unfamiliar concepts, compare alternatives and break larger problems into smaller parts.
-
-</td><td width="50%">BUILD WITH PURPOSE
-
-I prefer code that is understandable, testable and easy to modify.
-
-The goal is not only to make something work, but to understand why it works.
-
-</td>
-</tr>
-</table>---
-
-<div align="center">"05 / NOW"
-
-CURRENT FOCUS
-
-</div><table>
-<tr>
-<td width="50%" valign="top">BACKEND
-──────────────
-Node.js
-Express
-REST APIs
-PostgreSQL
-Testing
-
-</td><td width="50%" valign="top">GROWING
-──────────────
-Software Architecture
-Backend Practices
-Technical English
-Project Structure
-
-</td>
-</tr>
-</table>---
-
-<div align="center">"06 / EDUCATION"
-
-</div>CAMPUSLANDS GUATEMALA
-"2025 — 2026" · Formación en Desarrollo de Software
-
-Programación · Desarrollo de software · Bases de datos · Git · Backend
-
-<br>UNIVERSIDAD MARIANO GÁLVEZ
-"2026" · Ingeniería en Sistemas
-
-Primer semestre completado
-
-<br>LICEO COMERCIAL ENTRE VALLES
-"2025" · Bachillerato en Ciencias y Letras con Orientación en Computación
+Si quieres hablar de desarrollo backend, APIs, bases de datos o trabajo en equipo, ¡te leo por correo o LinkedIn!
 
 ---
 
-<div align="center">"07 / BEYOND CODE"
-
-<table>
-<tr>
-<td align="center">CURIOSITY
-
-Understanding
-how things work
-
-</td><td align="center">PROBLEM SOLVING
-
-Turning problems
-into solutions
-
-</td><td align="center">AUTOMATION
-
-Making processes
-more efficient
-
-</td><td align="center">LEARNING
-
-Growing by
-building
-
-</td>
-</tr>
-</table></div>---
-
-<div align="center">"08 / CONNECT"
-
-OPEN TO MY FIRST PROFESSIONAL OPPORTUNITY
-
-Backend · Full Stack · Software Development
-
-<br><a href="https://github.com/TOTO05-a">
-<img src="https://img.shields.io/badge/GITHUB-TOTO05--a-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a><a href="https://www.linkedin.com/in/antonio-cruz-834750396">
-<img src="https://img.shields.io/badge/LINKEDIN-ANTONIO%20CRUZ-111827?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a><a href="mailto:anntoniocruz7@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-111827?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a><br><br>
-
-TOTO05-a
-Software Developer
-Guatemala · 2026
-
-<br><img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:111827,100:06111F&height=110&section=footer" width="100%"/></div>
+<p align='center'>
+  <strong>Software Developer</strong><br>
+  Guatemala · 2026
+</p>
