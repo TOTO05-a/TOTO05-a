@@ -1,57 +1,56 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020817,50:0F172A,100:0EA5E9&height=220&section=header&text=EDUARDO%20ANTONIO%20CRUZ%20BOLA%C3%91OS&fontSize=42&animation=twinkling&fontColor=EAF2FF" alt="Header banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0B1120,100:06B6D4&height=230&section=header&text=ANTONIO%20CRUZ&fontSize=42&animation=twinkling&fontColor=EAF2FF" alt="Banner principal" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=29&duration=3500&pause=850&color=67E8F9&center=true&vCenter=true&width=960&lines=Backend+Developer;Full+Stack+Engineer;APIs+%26+Databases;Problem+solver+with+software" alt="Typing banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=3000&pause=800&color=67E8F9&center=true&vCenter=true&width=980&lines=Desarrollador+Backend;APIs+y+microservicios;Bases+de+datos+%26+soluciones+reales;Software+con+objetivo+y+claridad" alt="Texto animado" />
 </div>
 
 <div align="center">
   <a href="https://github.com/TOTO05-a">
-    <img src="https://img.shields.io/badge/GitHub-TOTO05--a-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-TOTO05--a-0B1120?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/antonio-cruz-834750396">
     <img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:anntoniocruz7@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contacto-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Guatemala-0B1220?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=flat-square" />
-  <img src="https://img.shields.io/badge/English-B1-38BDF8?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Backend%20%7C%20APIs%20%7C%20Databases-8B5CF6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-Guatemala-0B1220?style=flat-square" />
+  <img src="https://img.shields.io/badge/Disponibilidad-Abierto%20al%20trabajo-22C55E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Ingl%C3%A9s-B1-38BDF8?style=flat-square" />
+  <img src="https://img.shields.io/badge/Enfoque-Backend%20%7C%20APIs%20%7C%20BD-8B5CF6?style=flat-square" />
 </p>
 
 <hr />
 
 <table>
   <tr>
-    <td width="60%" valign="top">
-      <h2>PROFILE</h2>
+    <td width="62%" valign="top">
+      <h2>PERFIL</h2>
       <p>
-        I am a software developer with a strong focus on backend systems, APIs, database design and practical web solutions.
-        I enjoy building software that is well-structured, scalable and useful in real contexts, not just code that works superficially.
+        Soy un desarrollador de software centrado en backend, APIs, bases de datos y soluciones web prácticas.
+        Me apasiona construir sistemas que no solo funcionen, sino que también sean útiles, ordenados y sostenibles con el tiempo.
       </p>
       <p>
-        Most of my experience comes from academic and personal projects, where I have developed and improved solutions using JavaScript,
-        Node.js, Python, PostgreSQL, MongoDB, HTML, CSS and Git. Those projects helped me understand how to plan, implement,
-        test and evolve software responsibly.
+        La mayor parte de mi experiencia la he desarrollado en proyectos académicos y personales, donde he trabajado con JavaScript,
+        Node.js, Python, PostgreSQL, MongoDB, HTML, CSS y Git para planificar, construir, probar y mejorar soluciones reales.
       </p>
       <p>
-        I am currently in search of my first professional opportunity, where I can contribute meaningfully, learn from real teams and keep growing in software development.
+        Actualmente estoy buscando mi primera oportunidad profesional para aportar valor, aprender junto a un equipo y seguir creciendo como desarrollador con una base sólida y una mentalidad práctica.
       </p>
     </td>
-    <td width="40%" valign="top">
-      <h3>KEY DATA</h3>
+    <td width="38%" valign="top">
+      <h3>RESUMEN</h3>
       <ul>
         <li>Guatemala</li>
-        <li>Open to work</li>
-        <li>Backend and full stack focus</li>
-        <li>APIs and databases</li>
-        <li>Structured and growth-driven mindset</li>
+        <li>Disponible para trabajar</li>
+        <li>Backend + full stack</li>
+        <li>APIs y bases de datos</li>
+        <li>Soluciones con estructura y propósito</li>
       </ul>
     </td>
   </tr>
@@ -59,10 +58,10 @@
 
 <hr />
 
-<h2 align="center">TECH STACK</h2>
+<h2 align="center">STACK PRINCIPAL</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,nodejs,express,python,postgres,mongodb,mysql,html,css,git,github,jest" />
+  <img src="https://skillicons.dev/icons?i=js,nodejs,express,python,postgres,mongodb,mysql,html,css,git,github,jest" alt="Stack principal" />
 </p>
 
 <table>
@@ -78,7 +77,7 @@
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Data</h3>
+      <h3>Datos</h3>
       <ul>
         <li>PostgreSQL</li>
         <li>MongoDB</li>
@@ -87,7 +86,7 @@
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Tools</h3>
+      <h3>Herramientas</h3>
       <ul>
         <li>Git</li>
         <li>GitHub</li>
@@ -101,111 +100,111 @@
 
 <hr />
 
-<h2 align="center">HOW I BUILD</h2>
+<h2 align="center">CÓMO ENFOCO MI TRABAJO</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Analyze the problem</h3>
-      <p>I start by understanding the real need, the constraints and the impact before choosing a technical path.</p>
+      <h3>Analizo bien el problema</h3>
+      <p>Empiezo por entender la necesidad real, las restricciones y el impacto antes de decidir la solución técnica.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Design with clarity</h3>
-      <p>I prefer solutions that are clean, maintainable and testable, because strong software should also be easy to evolve.</p>
+      <h3>Diseño con claridad</h3>
+      <p>Busco soluciones ordenadas, mantenibles y testeables, porque el software bueno no solo resuelve, también evoluciona bien.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Learn by implementing</h3>
-      <p>I improve by coding real solutions, debugging them, testing them and refining the result through iteration.</p>
+      <h3>Aprendo construyendo</h3>
+      <p>Mejoro desarrollando proyectos reales, corrigiendo fallos, validando resultados y ajustando la implementación.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Keep improving</h3>
-      <p>I value optimization, validation and quality refinement, because meaningful development is constant iteration.</p>
+      <h3>Siempre busco mejorar</h3>
+      <p>Valoro la optimización, la validación y la calidad porque el desarrollo real es un proceso continuo.</p>
     </td>
   </tr>
 </table>
 
 <hr />
 
-<h2 align="center">FEATURED PROJECTS</h2>
+<h2 align="center">PROYECTOS DESTACADOS</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Applications API</h3>
-      <p><strong>Description:</strong> Backend API for managing candidates, vacancies and applications.</p>
-      <p><strong>Why it matters:</strong> It helped me practice layered architecture, validation, centralized error handling and automated tests.</p>
+      <p><strong>Descripción:</strong> API backend para gestionar candidatos, vacantes y postulaciones.</p>
+      <p><strong>Qué aprendí:</strong> arquitectura por capas, validación, manejo centralizado de errores y pruebas automatizadas.</p>
       <p><strong>Stack:</strong> Node.js, Express, PostgreSQL, Zod, Jest, Supertest</p>
-      <p><a href="https://github.com/TOTO05-a/applications-api">View project</a></p>
+      <p><a href="https://github.com/TOTO05-a/applications-api">Ver proyecto</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>Parqueadero Multisede</h3>
-      <p><strong>Description:</strong> Data project for a multi-location parking company.</p>
-      <p><strong>Why it matters:</strong> It strengthened my understanding of data modeling, relationships and business logic in a real scenario.</p>
+      <p><strong>Descripción:</strong> Proyecto de bases de datos para una empresa de parqueo con múltiples sedes.</p>
+      <p><strong>Qué aprendí:</strong> modelado de datos, relaciones, lógica del negocio y estructura de información.</p>
       <p><strong>Stack:</strong> MongoDB, mongosh</p>
-      <p><a href="https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio">View project</a></p>
+      <p><a href="https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio">Ver proyecto</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Inventario Gamer</h3>
-      <p><strong>Description:</strong> Inventory management backend with product operations and persistence.</p>
-      <p><strong>Why it matters:</strong> It allowed me to work with CRUD flows, database integration and service organization.</p>
+      <p><strong>Descripción:</strong> Backend para gestión de inventario con persistencia y operaciones clave.</p>
+      <p><strong>Qué aprendí:</strong> flujos CRUD, integración con bases de datos y organización de servicios.</p>
       <p><strong>Stack:</strong> Node.js, MongoDB, Mongoose</p>
-      <p><a href="https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb">View project</a></p>
+      <p><a href="https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb">Ver proyecto</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>Stream Music App</h3>
-      <p><strong>Description:</strong> Frontend project focused on interface structure and content organization.</p>
-      <p><strong>Why it matters:</strong> It improved my ability to design products with clarity, visual flow and user-friendly navigation.</p>
+      <p><strong>Descripción:</strong> Proyecto frontend orientado a estructura visual y organización de contenido.</p>
+      <p><strong>Qué aprendí:</strong> composición de interfaces, flujo lógico y experiencia visual más clara.</p>
       <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
-      <p><a href="https://github.com/TOTO05-a/Proyecto-stream-Music-App-Eduardo-Antonio-Cruz-Bola-os">View project</a></p>
+      <p><a href="https://github.com/TOTO05-a/Proyecto-stream-Music-App-Eduardo-Antonio-Cruz-Bola-os">Ver proyecto</a></p>
     </td>
   </tr>
 </table>
 
 <hr />
 
-<h2 align="center">EDUCATION</h2>
+<h2 align="center">EDUCACIÓN</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Campuslands Guatemala</h3>
       <p>2025 - 2026</p>
-      <p>Software Development training</p>
+      <p>Capacitación en Desarrollo de Software</p>
     </td>
     <td width="50%" valign="top">
       <h3>Universidad Mariano Gálvez</h3>
       <p>2026</p>
-      <p>Systems Engineering</p>
+      <p>Ingeniería de Sistemas</p>
     </td>
   </tr>
   <tr>
     <td width="100%" colspan="2" valign="top">
       <h3>Liceo Comercial Entre Valles</h3>
       <p>2025</p>
-      <p>Bachelor in Science and Letters with Computer Orientation</p>
+      <p>Bachiller en Ciencias y Letras con Orientación en Computación</p>
     </td>
   </tr>
 </table>
 
 <hr />
 
-<h2 align="center">CURRENT FOCUS</h2>
+<h2 align="center">FOCO ACTUAL</h2>
 
 <ul>
-  <li>Node.js and REST APIs</li>
-  <li>PostgreSQL and relational logic</li>
-  <li>Testing and maintainability</li>
-  <li>Backend architecture and clean design</li>
-  <li>Technical communication and professional growth</li>
+  <li>Node.js y APIs REST</li>
+  <li>PostgreSQL y lógica relacional</li>
+  <li>Pruebas y mantenibilidad</li>
+  <li>Arquitectura backend y diseño limpio</li>
+  <li>Comunicación técnica y crecimiento profesional</li>
 </ul>
 
 <hr />
 
-<h2 align="center">GITHUB ACTIVITY</h2>
+<h2 align="center">ESTADÍSTICAS DE GITHUB</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="200" />
@@ -214,25 +213,25 @@
 
 <hr />
 
-<h2 align="center">CONNECT</h2>
+<h2 align="center">CONTACTO</h2>
 
 <p align="center">
-  I am open to real opportunities, software collaborations and professional projects where I can contribute, learn with a team and keep growing in software development.
+  Estoy abierto a oportunidades reales, colaboraciones técnicas y proyectos donde pueda contribuir, aprender y crecer junto a un equipo con una visión clara del software.
 </p>
 
 <div align="center" style="margin-top: 18px; margin-bottom: 12px;">
   <a href="https://github.com/TOTO05-a">
-    <img src="https://img.shields.io/badge/GitHub-TOTO05--a-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-TOTO05--a-0B1120?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/antonio-cruz-834750396">
     <img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:anntoniocruz7@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contacto-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
 <p align="center">
-  <strong>Software Developer</strong><br>
+  <strong>Desarrollador de software</strong><br>
   Guatemala · 2026
 </p>
