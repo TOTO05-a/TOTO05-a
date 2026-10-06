@@ -1,392 +1,229 @@
-<div align="center">
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:06111F,50:0B182E,100:052E2B&height=230&section=header&text=Eduardo%20Antonio%20Cruz%20Bolaños&fontSize=38&fontColor=F8FAFC&fontAlignY=38&desc=Desarrollador%20de%20Software%20%7C%20Backend%20%26%20Full%20Stack&descAlignY=58&descSize=18&descColor=67E8F9"/><br>"TOTO05-a@github"
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0F172A,75:0891B2,100:06B6D4&height=220&section=header&text=Eduardo%20Antonio%20Cruz%20Bolaños&fontSize=42&fontColor=FFFFFF&fontAlignY=36&desc=Full%20Stack%20Junior%20Developer&descAlignY=57&descSize=20&descColor=CFFAFE" width="100%" />
+Eduardo Antonio Cruz Bolaños
 
-<br>
+Desarrollador de Software · Backend & Full Stack
 
-# `Hello, World!` 👋
+«Desarrollo software para convertir problemas en soluciones que realmente funcionen»
 
-### Soy Eduardo Antonio Cruz Bolaños
+<br><a href="https://github.com/TOTO05-a">
+<img src="https://img.shields.io/badge/GitHub-TOTO05--a-06111F?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/antonio-cruz-834750396">
+<img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-06111F?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+</a>
+<a href="mailto:anntoniocruz7@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contacto-06111F?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+</a><br><br>
 
-**Desarrollador Full Stack Junior en formación**
+"Guatemala" · "Inglés B1" · "Disponible tiempo completo"
 
-Desarrollo software para convertir problemas en soluciones que realmente funcionen.
+</div>---
 
-<br>
+<div align="center">"01 / PERFIL"
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TOTO05-a)
-[![Email](https://img.shields.io/badge/Email-0891B2?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:anntoniocruz7@gmail.com)
+Construyo. Aprendo. Resuelvo.
 
-<br>
+</div>Soy desarrollador de software en formación, con enfoque en backend, APIs, bases de datos y desarrollo web.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=850&lines=Construyo+soluciones+web;Desarrollo+APIs+REST;Trabajo+con+SQL+y+NoSQL;Aprendo+con+proyectos+reales" alt="Typing" />
+Mi experiencia se ha construido principalmente mediante proyectos académicos y personales, donde he trabajado con diferentes tecnologías para diseñar, desarrollar, probar y mejorar soluciones de software.
 
-</div>
-
----
-
-<div align="center">
-
-### `> whoami`
-
-</div>
-
-Soy desarrollador Full Stack Junior en formación, enfocado en **desarrollo web, backend, APIs y bases de datos**.
-
-Me gusta entender cómo funcionan las cosas, investigar cuando encuentro algo nuevo y construir soluciones que sean **funcionales, claras y mantenibles**.
-
-Actualmente estoy buscando mi **primera oportunidad profesional en desarrollo de software**, donde pueda aportar lo que ya sé y continuar aprendiendo de un equipo con experiencia.
-
-<br>
-
-<div align="center">
-
-|        📍 Ubicación        |      💻 Enfoque      | 🌎 Inglés | 🕐 Disponibilidad |
-| :------------------------: | :------------------: | :-------: | :---------------: |
-| San José Pinula, Guatemala | Full Stack / Backend |     B1    |  Tiempo completo  |
-
-</div>
+Actualmente busco mi primera oportunidad profesional en desarrollo de software, donde pueda aplicar lo aprendido, aportar al equipo y continuar desarrollándome con experiencia real.
 
 ---
 
-<div align="center">
+<div align="center">"02 / TECNOLOGÍAS"
 
-## `> what_i_do`
+Mi stack actual
 
-</div>
-
-<table align="center">
+<br><img src="https://skillicons.dev/icons?i=js,nodejs,express,python,postgres,mongodb,mysql,html,css,git,github,jest" /></div><br><table>
 <tr>
-<td width="33%" align="center">
+<td width="33%" valign="top">BACKEND
 
-### 🌐 Desarrollo Web
+"JavaScript"
+"Node.js"
+"Express"
+"Python"
+"REST APIs"
 
-Creo interfaces web utilizando tecnologías nativas y enfocándome en que sean claras y funcionales.
+</td><td width="33%" valign="top">BASES DE DATOS
 
-**HTML · CSS · JavaScript**
+"PostgreSQL"
+"MongoDB"
+"MySQL"
+"MongoDB Atlas"
 
-</td>
+</td><td width="33%" valign="top">HERRAMIENTAS
 
-<td width="33%" align="center">
-
-### ⚙️ Backend & APIs
-
-Desarrollo servicios backend, APIs REST y lógica para trabajar con datos.
-
-**Node.js · Express · Python**
-
-</td>
-
-<td width="33%" align="center">
-
-### 🗄️ Bases de Datos
-
-Trabajo con bases de datos relacionales y NoSQL según las necesidades del proyecto.
-
-**MySQL · PostgreSQL · MongoDB**
+"Git"
+"GitHub"
+"Jest"
+"Supertest"
+"Postman"
 
 </td>
 </tr>
-</table>
+</table>---
+
+<div align="center">"03 / PROYECTOS"
+
+Trabajo que representa lo que estoy aprendiendo
+
+</div><table>
+<tr>
+<td width="50%" valign="top">"01"
+
+Applications API
+
+API backend para gestionar candidatos, vacantes y postulaciones.
+
+Incluye arquitectura por capas, validación de datos, manejo centralizado de errores, pruebas automatizadas y transacciones con PostgreSQL.
+
+"Node.js" "Express"
+"PostgreSQL" "Zod"
+"Jest" "Supertest"
+
+<br>"VER PROYECTO →" (https://github.com/TOTO05-a/applications-api)
+
+</td><td width="50%" valign="top">"02"
+
+Parqueadero Multisede
+
+Proyecto de modelado de datos para una empresa de parqueaderos con diferentes sedes.
+
+Se trabajó con MongoDB para representar la información relacionada con sedes, vehículos, clientes y operaciones.
+
+"MongoDB" "mongosh"
+
+<br>"VER PROYECTO →" (https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)
+
+</td>
+</tr><tr>
+<td width="50%" valign="top">"03"
+
+Inventario Gamer
+
+Backend orientado a la gestión de productos de un inventario.
+
+Utiliza Node.js y MongoDB mediante Mongoose para trabajar con persistencia y operaciones sobre los datos.
+
+"Node.js" "MongoDB"
+"Mongoose"
+
+<br>"VER PROYECTO →" (https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)
+
+</td><td width="50%" valign="top">"04"
+
+Stream Music App
+
+Aplicación web enfocada en la interfaz, navegación y organización de contenido relacionado con música.
+
+Proyecto desarrollado para practicar estructura y presentación de contenido en una aplicación web.
+
+"HTML" "CSS" "JavaScript"
+
+<br>"VER PROYECTO →" (https://github.com/TOTO05-a/Proyecto-stream-Music-App-Eduardo-Antonio-Cruz-Bola-os)
+
+</td>
+</tr>
+</table>---
+
+<div align="center">"04 / FORMA DE TRABAJAR"
+
+Entender → Investigar → Construir → Probar → Mejorar
+
+</div><table>
+<tr>
+<td width="50%" valign="top">"01" ENTENDER
+
+Antes de programar intento comprender el problema, sus restricciones y lo que realmente necesita resolverse.
+
+</td><td width="50%" valign="top">"02" INVESTIGAR
+
+Cuando algo es nuevo para mí, investigo, comparo alternativas y pruebo hasta entender cómo funciona.
+
+</td>
+</tr><tr>
+<td width="50%" valign="top">"03" CONSTRUIR
+
+Prefiero avanzar por partes, mantener una estructura clara y evitar agregar complejidad que el proyecto no necesita.
+
+</td><td width="50%" valign="top">"04" MEJORAR
+
+Pruebo lo construido, encuentro errores y busco formas de hacerlo más claro, estable y mantenible.
+
+</td>
+</tr>
+</table>---
+
+<div align="center">"05 / ACTUALMENTE"
+
+En qué estoy enfocando mi aprendizaje
+
+</div><table>
+<tr>
+<td width="50%">FORTALECIENDO
+
+"Node.js"
+"Express"
+"PostgreSQL"
+"REST APIs"
+"Testing"
+
+</td><td width="50%">APRENDIENDO
+
+"Arquitectura de software"
+"Buenas prácticas de backend"
+"Estructuración de proyectos"
+"Inglés técnico"
+
+</td>
+</tr>
+</table>---
+
+<div align="center">"06 / FORMACIÓN"
+
+</div>Campuslands Guatemala
+"2025 — 2026" · Formación en Desarrollo de Software
+
+Programación · Desarrollo de software · Bases de datos · Git · Backend
+
+<br>Universidad Mariano Gálvez
+"2026" · Ingeniería en Sistemas
+
+Primer semestre completado
+
+<br>Liceo Comercial Entre Valles
+"2025" · Bachillerato en Ciencias y Letras con Orientación en Computación
 
 ---
 
-<div align="center">
+<div align="center">"07 / MÁS ALLÁ DEL CÓDIGO"
 
-## `> tech_stack`
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=html,css,js" />
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,python" />
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman" />
-
-</div>
-
----
-
-<div align="center">
-
-## `> projects`
-
-### 🚀 Lo que he construido
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### Applications API
-
-API backend para gestionar **candidatos, vacantes y postulaciones**.
-
-Implementa validaciones, separación de responsabilidades, manejo de errores, pruebas automatizadas y transacciones con PostgreSQL.
-
-**Stack**
-
-`Node.js` `Express` `PostgreSQL`
-`Zod` `Jest` `Supertest`
-
-<br>
-
-🔗 **[Ver repositorio](https://github.com/TOTO05-a/applications-api)**
-
-</td>
-
-<td width="50%">
-
-### Parqueadero Multisede
-
-Diseño e implementación de una base de datos para gestionar una empresa de parqueaderos ubicados en diferentes ciudades.
-
-El proyecto trabaja con información relacionada entre sedes, vehículos, clientes y operación.
-
-**Stack**
-
-`MongoDB` `mongosh`
-
-<br>
-
-🔗 **[Ver repositorio](https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### Inventario Gamer
-
-Sistema backend para gestionar productos de un inventario utilizando Node.js y MongoDB.
-
-Proyecto enfocado en manejo de datos y estructura backend.
-
-**Stack**
-
-`Node.js` `MongoDB` `Mongoose`
-
-<br>
-
-🔗 **[Ver repositorio](https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)**
-
-</td>
-
-<td width="50%">
-
-### Más proyectos
-
-Además de estos proyectos, continúo desarrollando aplicaciones y ejercicios para fortalecer mis conocimientos en:
-
-`JavaScript` `Python` `Node.js`
-`APIs` `SQL` `NoSQL` `Git`
-
-<br>
-
-🔗 **[Explorar todos mis repositorios →](https://github.com/TOTO05-a?tab=repositories)**
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## `> how_i_think`
-
-</div>
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  01  UNDERSTAND                                              │
-│      Entender el problema antes de escribir código            │
-│                                                              │
-│                         ↓                                    │
-│                                                              │
-│  02  INVESTIGATE                                             │
-│      Investigar, comparar y probar soluciones                 │
-│                                                              │
-│                         ↓                                    │
-│                                                              │
-│  03  BUILD                                                   │
-│      Construir por partes y mantener una estructura clara    │
-│                                                              │
-│                         ↓                                    │
-│                                                              │
-│  04  TEST                                                    │
-│      Validar que lo desarrollado realmente funcione          │
-│                                                              │
-│                         ↓                                    │
-│                                                              │
-│  05  IMPROVE                                                 │
-│      Revisar, aprender y mejorar lo construido                │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
----
-
-<div align="center">
-
-## `> principles`
-
-</div>
-
-<table align="center">
-<tr>
-<td>🧠 Entender antes de implementar</td>
-<td>🧩 Separar responsabilidades</td>
-</tr>
-<tr>
-<td>🔍 Investigar cuando no conozco algo</td>
-<td>🧪 Validar antes de entregar</td>
-</tr>
-<tr>
-<td>🌱 Aprender mediante proyectos</td>
-<td>📚 Documentar lo importante</td>
-</tr>
-<tr>
-<td>🔀 Utilizar Git para controlar cambios</td>
-<td>🚀 Mejorar continuamente</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## `> currently_learning`
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=800&color=67E8F9&center=true&vCenter=true&width=700&lines=Backend+Development;REST+APIs;PostgreSQL;Node.js+%2B+Express;Testing;Software+Architecture" />
+<br>"CURIOSIDAD" · "RESOLUCIÓN DE PROBLEMAS" · "AUTOMATIZACIÓN" · "APRENDIZAJE CONTINUO"
 
 <br><br>
 
-<table>
-<tr>
-<td align="center">
+Me interesa entender procesos, encontrar formas de hacerlos más eficientes y aprender construyendo.
 
-### 🔧 Fortaleciendo
+</div>---
 
-Node.js
-Express
-PostgreSQL
-APIs REST
-Testing
+<div align="center">"08 / CONECTEMOS"
 
-</td>
+Buscando mi primera oportunidad profesional
 
-<td align="center">
+"DESARROLLO DE SOFTWARE" · "BACKEND" · "FULL STACK"
 
-### 📖 Aprendiendo
+<br><a href="https://github.com/TOTO05-a">
+<img src="https://img.shields.io/badge/GITHUB-TOTO05--a-111827?style=for-the-badge&logo=github&logoColor=white"/>
+</a><a href="https://www.linkedin.com/in/antonio-cruz-834750396">
+<img src="https://img.shields.io/badge/LINKEDIN-ANTONIO%20CRUZ-111827?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a><a href="mailto:anntoniocruz7@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-CONTACTO-111827?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a><br><br>
 
-Arquitectura de software
-Buenas prácticas backend
-Docker
-Inglés técnico
-
-</td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## `> education`
-
-</div>
-
-### 🎓 Campuslands Guatemala
-
-**Formación en Desarrollo de Software · 2025 — 2026**
-
-Programa intensivo enfocado en programación, desarrollo de software, bases de datos, control de versiones y desarrollo backend.
-
-### 🎓 Universidad Mariano Gálvez
-
-**Ingeniería en Sistemas · 2026**
-
-Primer semestre completado.
-
-### 🎓 Liceo Comercial Entre Valles
-
-**Bachillerato en Ciencias y Letras con Orientación en Computación · 2025**
-
----
-
-<div align="center">
-
-## `> github`
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" height="170" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="170" />
+<sub>Construyendo software, aprendiendo de cada proyecto y preparándome para el siguiente nivel.</sub>
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TOTO05-a&theme=github_dark" width="98%" />
-
-</div>
-
----
-
-<div align="center">
-
-## `> beyond_code`
-
-<table>
-<tr>
-<td align="center">🔎<br><b>Curiosidad</b><br><sub>Me gusta entender cómo funcionan las cosas</sub></td>
-<td align="center">🧩<br><b>Resolución</b><br><sub>Busco soluciones prácticas a los problemas</sub></td>
-<td align="center">⚡<br><b>Automatización</b><br><sub>Me interesa hacer procesos más eficientes</sub></td>
-<td align="center">📚<br><b>Aprendizaje</b><br><sub>Aprendo construyendo y probando</sub></td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## `> career_goal`
-
-> **Mi objetivo es conseguir mi primera oportunidad profesional en desarrollo de software.**
-
-Quiero integrarme a un equipo donde pueda **aportar, asumir responsabilidades, aprender de personas con experiencia y seguir creciendo como desarrollador**.
-
-<br>
-
-### Disponible para oportunidades de tiempo completo
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/CONOCE%20MI%20PERFIL-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
-[![GitHub](https://img.shields.io/badge/EXPLORA%20MIS%20PROYECTOS-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TOTO05-a)
-[![Email](https://img.shields.io/badge/CONTACTAME-0891B2?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:anntoniocruz7@gmail.com)
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:0891B2,100:0F172A&height=100&section=footer" width="100%" />
-
-<sub>San José Pinula, Guatemala · Actualizado Octubre 2026</sub>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052E2B,50:0B182E,100:06111F&height=110&section=footer"/></div>
