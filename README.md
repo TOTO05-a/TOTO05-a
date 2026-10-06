@@ -1,146 +1,255 @@
 <div align="center">
 
-# Eduardo Antonio Cruz Bolaños
-
-### Full Stack Junior Developer
-
-**Construyo soluciones web, trabajo con datos y convierto requerimientos en software funcional**
-
-📍 San José Pinula, Guatemala
-
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=22\&duration=2500\&pause=900\&color=0891B2\&center=true\&vCenter=true\&width=900\&lines=Desarrollo+Web+Full+Stack;Node.js+%7C+Python+%7C+JavaScript;APIs+REST+y+bases+de+datos;Git+%7C+GitHub+%7C+trabajo+por+ramas)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TOTO05-a)
-
-</div>
-
----
-
-## Sobre mi
-
-Soy desarrollador Full Stack Junior en formación, enfocado en crear aplicaciones web, APIs y soluciones que trabajen correctamente con datos.
-
-Me gusta **entender los problemas, investigar cómo resolverlos y construir soluciones funcionales**, manteniendo una estructura clara y procurando que el código sea fácil de entender y mantener.
-
-Actualmente busco mi **primera oportunidad profesional en desarrollo de software**, donde pueda aportar lo que he aprendido y continuar creciendo junto a un equipo con experiencia.
-
----
-
-## Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,py,nodejs,express,mysql,postgres,mongodb,git,github,docker,vscode,postman" alt="Tecnologias" />
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0891B2,100:164E63&height=180&section=header&text=Eduardo%20Antonio%20Cruz%20Bolaños&fontSize=38&fontColor=FFFFFF&fontAlignY=35&desc=Full%20Stack%20Junior%20Developer&descAlignY=58&descSize=18&descColor=BAE6FD" width="100%" />
 
 <br>
 
-| Area                     | Tecnologias                |
-| :----------------------- | :------------------------- |
-| **Frontend**             | HTML, CSS, JavaScript      |
-| **Backend**              | Node.js, Express, Python   |
-| **APIs**                 | REST, Postman              |
-| **Bases de datos**       | MySQL, PostgreSQL, MongoDB |
-| **Control de versiones** | Git, GitHub                |
-| **Herramientas**         | VS Code, Docker            |
+### Desarrollo software para convertir problemas en soluciones que realmente funcionen
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=TOTO05-a&style=flat-square&color=0891B2" alt="Profile views" />
+</p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TOTO05-a)
+[![Email](https://img.shields.io/badge/Email-0891B2?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:anntoniocruz7@gmail.com)
+
+</div>
 
 ---
 
-## Proyectos destacados
+## `> whoami`
 
-### Applications API
+Soy **Eduardo Antonio Cruz Bolaños**, desarrollador Full Stack Junior en formación desde Guatemala.
 
-API para gestionar **candidatos, vacantes y postulaciones**, desarrollada aplicando separación de responsabilidades, validaciones, manejo de errores, pruebas y transacciones con PostgreSQL.
+Me interesa crear software que no solo funcione, sino que tenga una estructura clara, sea fácil de entender y pueda seguir creciendo con el proyecto.
 
-**Node.js · Express · PostgreSQL · Zod · Jest · Supertest**
-
-[**Ver proyecto →**](https://github.com/TOTO05-a/applications-api)
-
----
-
-### Parqueadero Multisede
-
-Diseño e implementación de una base de datos en **MongoDB** para gestionar la operación de una empresa de parqueaderos ubicados en múltiples ciudades.
-
-**MongoDB · mongosh**
-
-[**Ver proyecto →**](https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)
-
----
-
-### Inventario Gamer
-
-Sistema backend para gestionar productos de un inventario utilizando **Node.js y MongoDB**, aplicando una estructura organizada para trabajar con los datos.
-
-**Node.js · MongoDB · Mongoose**
-
-[**Ver proyecto →**](https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)
-
----
-
-## Como trabajo
+Actualmente estoy enfocado en fortalecer mis conocimientos de **backend, APIs, bases de datos y desarrollo web**, mientras busco mi primera oportunidad profesional en desarrollo de software.
 
 ```text
-01  Entender
-    Analizo el requerimiento y el problema antes de comenzar
-
-02  Investigar
-    Busco y pruebo alternativas cuando encuentro algo nuevo
-
-03  Construir
-    Organizo el proyecto y desarrollo por partes
-
-04  Validar
-    Pruebo los cambios y reviso que el resultado funcione
-
-05  Documentar
-    Mantengo commits, ramas y documentación clara
+Location       → San José Pinula, Guatemala
+Role           → Full Stack Junior Developer
+Focus          → Web Development · Backend · APIs · Databases
+English        → B1
+Availability   → Full Time
 ```
 
 ---
 
-## GitHub
+## `> what_i_build`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark" />
+|            🌐 Web           |     ⚙️ Backend    |      🗄️ Data      |
+| :-------------------------: | :---------------: | :----------------: |
+|  Interfaces web funcionales |     APIs REST     | Bases de datos SQL |
+|   HTML · CSS · JavaScript   | Node.js · Express | MySQL · PostgreSQL |
+| Diseño enfocado en claridad |       Python      |       MongoDB      |
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark" />
-
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TOTO05-a&theme=github_dark" alt="Profile details" width="98%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TOTO05-a&theme=github-dark&hide_border=true&radius=8&area=true" alt="Activity graph" width="98%" />
 </div>
 
 ---
 
-## Actualmente
+## `> tech_stack`
 
-* 💻 Finalizando mi formación en desarrollo de software
-* 🌐 Fortaleciendo mis conocimientos en desarrollo Full Stack
-* 🗄️ Trabajando con bases de datos SQL y NoSQL
-* 🔌 Desarrollando APIs y servicios backend
-* 📚 Aprendiendo continuamente mediante proyectos prácticos
-* 🚀 Buscando mi primera oportunidad profesional
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js" />
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,python" />
+</p>
+
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman" />
+</p>
 
 ---
 
+## `> featured_projects`
+
+### 🔹 Applications API
+
+API backend para gestionar **candidatos, vacantes y postulaciones**.
+
+El proyecto aplica separación de responsabilidades, validaciones, manejo de errores, pruebas automatizadas y transacciones con PostgreSQL.
+
+```text
+Node.js   Express   PostgreSQL   Zod
+Jest      Supertest
+```
+
+**Repository →** [TOTO05-a/applications-api](https://github.com/TOTO05-a/applications-api)
+
+---
+
+### 🔹 Parqueadero Multisede
+
+Diseño e implementación de una base de datos en **MongoDB** para administrar la operación de una empresa de parqueaderos ubicados en diferentes ciudades.
+
+```text
+MongoDB   mongosh
+```
+
+**Repository →** [TOTO05-a/proyecto_mongodb2_Cruz_Antonio](https://github.com/TOTO05-a/proyecto_mongodb2_Cruz_Antonio)
+
+---
+
+### 🔹 Inventario Gamer
+
+Sistema backend para gestionar productos de un inventario utilizando Node.js y MongoDB.
+
+```text
+Node.js   MongoDB   Mongoose
+```
+
+**Repository →** [TOTO05-a/inventario-gamer-campus-nodejs-mongodb](https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb)
+
+---
+
+## `> how_i_work`
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   01  UNDERSTAND                                    │
+│       Analizo el problema y el requerimiento        │
+│                                                     │
+│   02  INVESTIGATE                                   │
+│       Investigo cuando encuentro algo nuevo        │
+│                                                     │
+│   03  BUILD                                         │
+│       Desarrollo por partes y mantengo una          │
+│       estructura clara                              │
+│                                                     │
+│   04  TEST                                          │
+│       Valido que los cambios funcionen              │
+│                                                     │
+│   05  IMPROVE                                       │
+│       Reviso, documento y mejoro lo construido      │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## `> development_principles`
+
+```text
+✓ Entender antes de implementar
+✓ Mantener responsabilidades separadas
+✓ Escribir código fácil de entender
+✓ Usar Git para controlar los cambios
+✓ Trabajar con ramas y commits descriptivos
+✓ Validar antes de entregar
+✓ Aprender haciendo
+```
+
+---
+
+## `> currently_learning`
+
 <div align="center">
 
-### ¿Trabajamos juntos?
+### 📚 Actualmente fortaleciendo
 
-**Disponible para oportunidades de tiempo completo en desarrollo de software**
+**Backend · APIs REST · PostgreSQL · Node.js · Express · Testing**
 
-[LinkedIn](https://www.linkedin.com/in/antonio-cruz-834750396) · [GitHub](https://github.com/TOTO05-a) · [Email](mailto:anntoniocruz7@gmail.com)
+### 🌱 Próximos pasos
+
+**Arquitectura · Docker · Buenas prácticas backend · Inglés técnico**
+
+</div>
+
+---
+
+## `> education`
+
+### 🎓 Campuslands Guatemala
+
+**Formación en Desarrollo de Software · 2025 — 2026**
+
+Programa intensivo enfocado en programación, desarrollo de software, bases de datos, control de versiones y desarrollo backend.
+
+### 🎓 Universidad Mariano Gálvez
+
+**Ingeniería en Sistemas · 2026**
+
+Primer semestre completado.
+
+### 🎓 Liceo Comercial Entre Valles
+
+**Bachillerato en Ciencias y Letras con Orientación en Computación · 2025**
+
+---
+
+## `> github_stats`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=TOTO05-a&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TOTO05-a&layout=compact&theme=github_dark&hide_border=true" />
+
+</div>
 
 <br>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TOTO05-a&theme=github_dark" width="98%" />
+
+</div>
+
+---
+
+## `> beyond_code`
+
+<div align="center">
+
+|  💡 | Enfoque                                                    |
+| :-: | :--------------------------------------------------------- |
+|  🔎 | Investigar y entender cómo funcionan las cosas             |
+|  🧩 | Resolver problemas de forma práctica                       |
+|  ⚡  | Automatizar procesos cuando tiene sentido                  |
+|  📖 | Aprender mediante proyectos                                |
+|  🤝 | Trabajar de forma autónoma y colaborar cuando es necesario |
+
+</div>
+
+---
+
+<div align="center">
+
+## `> let's_build`
+
+### Busco mi primera oportunidad profesional en desarrollo de software
+
+Quiero formar parte de un equipo donde pueda **aportar, aprender de desarrolladores con experiencia y seguir creciendo profesionalmente**.
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/Conectemos_en_LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/antonio-cruz-834750396)
+
+[![Email](https://img.shields.io/badge/Contactame-0891B2?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:anntoniocruz7@gmail.com)
+
+<br>
+
+<sub>San José Pinula, Guatemala · Disponible para trabajo de tiempo completo</sub>
+
+<br><br>
 
 <sub>Actualizado · Octubre 2026</sub>
 
