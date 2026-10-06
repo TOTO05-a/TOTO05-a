@@ -1,62 +1,106 @@
-# 👋 Hello, World! Soy Eduardo Antonio Cruz Bolaños
+Hello, World! 👋
 
-### 🚀 Desarrollador Full Stack Junior | Apasionado por Backend & Bases de Datos
-> *"Convierto problemas complejos en software funcional, claro y mantenible."*
-
----
-
-## 👨‍💻 Sobre Mí (`whoami`)
-
-Soy un desarrollador **Full Stack Junior** enfocado principalmente en el ecosistema **Web, Backend, APIs y Bases de Datos**. Me motiva entender cómo funcionan las tecnologías internamente y construir arquitecturas sólidas. 
-
-Actualmente estoy **buscando mi primera oportunidad profesional** en desarrollo de software para aportar mis conocimientos, asumir nuevos retos y crecer junto a un equipo con experiencia.
-
-* 📍 **Ubicación:** San José Pinula, Guatemala
-* 💻 **Enfoque:** Backend / Full Stack
-* 🌐 **Idioma:** Español (Nativo), Inglés (B1 Technical)
-* 🕐 **Disponibilidad:** Tiempo completo (Remoto o Presencial)
+# Soy Eduardo Antonio Cruz Bolaños
+**Desarrollador Full Stack Junior en formación**  
+*Desarrollo software para convertir problemas en soluciones que realmente funcionen.*
 
 ---
 
-## 🛠️ Tech Stack (`tech_stack`)
+> whoami
+Soy desarrollador Full Stack Junior en formación, enfocado en desarrollo web, backend, APIs y bases de datos.  
+Me gusta entender cómo funcionan las cosas, investigar cuando encuentro algo nuevo y construir soluciones que sean funcionales, claras y mantenibles.  
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+Actualmente estoy buscando mi primera oportunidad profesional en desarrollo de software, donde pueda aportar lo que ya sé y continuar aprendiendo de un equipo con experiencia.
 
----
-
-## 🚀 Proyectos Destacados (`projects`)
-
-### 📌 [Applications API](URL_DE_TU_REPOSITORIO)
-> API backend completa para la gestión de candidatos, vacantes y postulaciones.
-* **Características:** Pruebas automatizadas, transacciones con PostgreSQL, manejo robusto de errores y validación estricta de esquemas.
-* **Tech Stack:** `Node.js` • `Express` • `PostgreSQL` • `Zod` • `Jest` • `Supertest`
-
-### 📌 [Parqueadero Multisede](URL_DE_TU_REPOSITORIO)
-> Diseño e implementación de base de datos para la gestión multi-ciudad de estacionamientos.
-* **Características:** Modelado NoSQL optimizado para operaciones concurrentes entre vehículos, sedes y clientes.
-* **Tech Stack:** `MongoDB` • `mongosh`
-
-### 📌 [Inventario Gamer](URL_DE_TU_REPOSITORIO)
-> Sistema backend para la administración eficiente de productos e inventarios.
-* **Características:** Operaciones CRUD avanzadas, agregaciones e integración ORM/ODM.
-* **Tech Stack:** `Node.js` • `MongoDB` • `Mongoose`
-
-👉 **[Explorar todos mis repositorios en GitHub](https://github.com/TU_USUARIO?tab=repositories)**
+- 📍 **Ubicación:** San José Pinula, Guatemala  
+- 💻 **Enfoque:** Full Stack / Backend  
+- 🌎 **Inglés:** B1  
+- 🕐 **Disponibilidad:** Tiempo completo  
 
 ---
 
-## 🧠 Metodología de Trabajo (`how_i_think`)
+> what_i_do
+
+**🌐 Desarrollo Web**  
+Creo interfaces web utilizando tecnologías nativas y enfocándome en que sean claras y funcionales.  
+`HTML` · `CSS` · `JavaScript`
+
+**⚙️ Backend & APIs**  
+Desarrollo servicios backend, APIs REST y lógica para trabajar con datos.  
+`Node.js` · `Express` · `Python`
+
+**🗄️ Bases de Datos**  
+Trabajo con bases de datos relacionales y NoSQL según las necesidades del proyecto.  
+`MySQL` · `PostgreSQL` · `MongoDB`
+
+---
+
+> tech_stack
+
+![](https://img.shields.io/badge/-JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
+![](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
+
+> projects
+
+### 🚀 Lo que he construido
+
+**[Applications API](https://github.com/TU_USUARIO/REPOSITE_NAME)**  
+API backend para gestionar candidatos, vacantes y postulaciones.  
+Implementa validaciones, separación de responsabilidades, manejo de errores, pruebas automatizadas y transacciones con PostgreSQL.  
+*Stack:* `Node.js` `Express` `PostgreSQL` `Zod` `Jest` `Supertest`
+
+**[Parqueadero Multisede](https://github.com/TU_USUARIO/REPOSITE_NAME)**  
+Diseño e implementación de una base de datos para gestionar una empresa de parqueaderos ubicados en diferentes ciudades.  
+El proyecto trabaja con información relacionada entre sedes, vehículos, clientes y operación.  
+*Stack:* `MongoDB` `mongosh`
+
+**[Inventario Gamer](https://github.com/TU_USUARIO/REPOSITE_NAME)**  
+Sistema backend para gestionar productos de un inventario utilizando Node.js y MongoDB.  
+Proyecto enfocado en manejo de datos y estructura backend.  
+*Stack:* `Node.js` `MongoDB` `Mongoose`
+
+**Más proyectos**  
+Además de estos proyectos, continúo desarrollando aplicaciones y ejercicios para fortalecer mis conocimientos en:  
+`JavaScript` `Python` `Node.js` `APIs` `SQL` `NoSQL` `Git`  
+
+🔗 **[Explorar todos mis repositorios →](https://github.com/TU_USUARIO?tab=repositories)**
+
+---
+
+> how_i_think
 
 ```text
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│ 01. UNDERSTAND│ ──> │02.INVESTIGATE│ ──> │  03. BUILD   │ ──> │   04. TEST   │ ──> │ 05. IMPROVE  │
-│Comprender el │     │ Analizar y   │     │  Estructura  │     │Validar con   │     │ Refactorizar │
-│ problema.    │     │ diseñar.     │     │   limpia.    │     │  pruebas.    │     │   y medir.   │
-└──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  01  UNDERSTAND                                              │
+│      Entender el problema antes de escribir código            │
+│                                                              │
+│                         ↓                                    │
+│                                                              │
+│  02  INVESTIGATE                                             │
+│      Investigar, comparar y probar soluciones                 │
+│                                                              │
+│                         ↓                                    │
+│                                                              │
+│  03  BUILD                                                   │
+│      Construir por partes y mantener una estructura clara    │
+│                                                              │
+│                         ↓                                    │
+│                                                              │
+│  04  TEST                                                    │
+│      Validar que lo desarrollado realmente funcione          │
+│                                                              │
+│                         ↓                                    │
+│                                                              │
+│  05  IMPROVE                                                 │
+│      Revisar, aprender y mejorar lo construido                │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
