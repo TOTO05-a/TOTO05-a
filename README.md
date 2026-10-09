@@ -94,7 +94,7 @@ Estoy abierto a oportunidades reales, colaboraciones profesionales y proyectos d
 
 <br>
 
-<a href="https://www.linkedin.com/in/antonio-cruz-834750396"> <img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <a href="mailto:anntoniocruz7@gmail.com"> <img src="https://img.shields.io/badge/Email-anntoniocruz7%40gmail.com-14B8A6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> </a>
+<a href="https://www.linkedin.com/in/eduardo-antonio-cruz-bolaños-834750396?utm_source=share_via&utm_content=profile&utm_medium=member_android"> <img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <a href="mailto:anntoniocruz7@gmail.com"> <img src="https://img.shields.io/badge/Email-anntoniocruz7%40gmail.com-14B8A6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> </a>
 
 </div>
 
