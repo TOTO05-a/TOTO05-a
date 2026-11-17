@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://toto05-a.github.io"><img src="https://img.shields.io/badge/Portafolio-toto05--a.github.io-14B8A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portafolio" /></a>
-  <a href="https://www.linkedin.com/in/antonio-cruz-834750396"><img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/antonio-cruz-dev"><img src="https://img.shields.io/badge/LinkedIn-Antonio%20Cruz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:anntoniocruz7@gmail.com"><img src="https://img.shields.io/badge/Email-Escr%C3%ADbeme-0F172A?style=for-the-badge&logo=gmail&logoColor=5EEAD4" alt="Email" /></a>
 </p>
 
@@ -97,7 +97,8 @@ Busco mi primer rol como desarrollador en un equipo donde aportar y seguir apren
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TOTO05-a/justificacion-inasistencias-n8n">🤖 justificacion-inasistencias-n8n</a></h3>
+      <h3><a href="https://toto05-a.github.io">🤖 justificacion-inasistencias-n8n</a></h3>
+      <p><sub>Código privado · demo en el portafolio</sub></p>
       <p>Automatización que recibe justificaciones de inasistencia, extrae el texto con OCR, las clasifica con IA, guarda el resultado y avisa al estudiante por Telegram.</p>
       <img src="https://img.shields.io/badge/n8n-0F172A?style=flat-square&logo=n8n&logoColor=5EEAD4" alt="n8n" />
       <img src="https://img.shields.io/badge/IA-0F172A?style=flat-square" alt="IA" />
@@ -144,6 +145,6 @@ Plataforma de ranking y reseñas de restaurantes, hecha en Campuslands con Scrum
 
 ## 📬 Contacto
 
-Estoy abierto a mi primer rol como desarrollador, a prácticas y a colaborar en proyectos. Puedes ver más en mi [portafolio](https://toto05-a.github.io), escribirme por [LinkedIn](https://www.linkedin.com/in/antonio-cruz-834750396) o a [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com).
+Estoy abierto a mi primer rol como desarrollador, a prácticas y a colaborar en proyectos. Puedes ver más en mi [portafolio](https://toto05-a.github.io), escribirme por [LinkedIn](https://www.linkedin.com/in/antonio-cruz-dev) o a [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com).
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020817,40:0F172A,100:14B8A6&height=110&section=footer" alt="" />
