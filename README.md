@@ -4,7 +4,7 @@
 </picture>
 
 <!-- status:start -->
-<p align="center"><sub>🟢 <b>141 contribuciones</b> en los últimos 7 días · 471 en los últimos 30 · actualizado el 27 nov</sub></p>
+<p align="center"><sub>🟢 <b>1 contribuciones</b> en los últimos 7 días · 329 en los últimos 30 · actualizado el 27 nov</sub></p>
 <!-- status:end -->
 
 Construyo aplicaciones completas: desde el modelo de datos y la API hasta la interfaz, con pruebas y Docker. Últimamente trabajo con **RAG**, **agentes de IA** y **automatizaciones con n8n**. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol como desarrollador.
@@ -47,6 +47,8 @@ Construyo aplicaciones completas: desde el modelo de datos y la API hasta la int
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
   <img src="assets/activity-light.svg" width="420" alt="Contribuciones por día en los últimos 7 días">
 </picture>
+
+**Último commit público:** `feat(empleados): agrega comentario de cabecera en cada archivo` en [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz/commit/72abaeb6160e5962b4c0a5a522ad80ded89a83b9) · 17 nov
 
 **Actualizado hace poco:**
 - [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz) · prueba técnica: aplicación de consola en node.js para gestionar empleados con poo, solid y pruebas
