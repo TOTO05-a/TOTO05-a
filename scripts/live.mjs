@@ -61,10 +61,10 @@ const lit = new Set();
 
 // Mapa de estrellas: cada día es un punto; más contribuciones, punto más brillante.
 const palettes = {
-  dark: { bg: ["#1a2033", "#22304f", "#2b4170", "#355391", "#4166b3"], on: ["#7dd3fc", "#e0f2fe"], text: "#8d96a0" },
-  light: { bg: ["#e6ebf2", "#d3deeb", "#bfd0e4", "#aac2dd", "#94b3d6"], on: ["#0369a1", "#0c4a6e"], text: "#59636e" },
+  dark: { bg: ["#141a2b", "#19223a", "#1f2c4c", "#26375f", "#2e4373"], on: "#e0f2fe", text: "#8d96a0" },
+  light: { bg: ["#eef2f7", "#e3e9f1", "#d7e0eb", "#cbd7e6", "#bfcee0"], on: "#0c4a6e", text: "#59636e" },
 };
-const CELL = 13, GAP = 3, STEP = CELL + GAP, OX = 0, OY = 22;
+const CELL = 14, GAP = 3, STEP = CELL + GAP, OX = 0, OY = 28;
 const width = cols * STEP - GAP, height = OY + 7 * STEP - GAP;
 const mes = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString("es", { month: "short", timeZone: "UTC" }).replace(".", "");
 function grid(p) {
@@ -72,7 +72,7 @@ function grid(p) {
   weeks.forEach((w, c) => {
     const first = w.contributionDays[0];
     const m = mes(first.date);
-    if (m !== prevMonth && c < cols - 2) { labels += `<text x="${OX + c * STEP}" y="12">${m}</text>`; prevMonth = m; }
+    if (m !== prevMonth && c < cols - 2) { labels += `<text x="${OX + c * STEP}" y="16">${m}</text>`; prevMonth = m; }
     // La primera semana puede empezar a mitad: se alinea por día de la semana.
     const offset = c === 0 ? 7 - w.contributionDays.length : 0;
     w.contributionDays.forEach((d, i) => {
@@ -81,15 +81,15 @@ function grid(p) {
       if (lit.has(`${c},${r}`)) {
         const delay = (0.2 + (c - start) * 0.04 + r * 0.012).toFixed(2);
         const tw = ["t1", "t2", "t3"][(c * 7 + r) % 3];
-        cells += `<g class="on" style="animation-delay:${delay}s"><circle class="${tw}" cx="${cx}" cy="${cy}" r="${CELL / 2 - 0.5}" fill="${p.on[(c + r) % 2]}"/></g>`;
+        cells += `<g class="on" style="animation-delay:${delay}s"><circle class="${tw}" cx="${cx}" cy="${cy}" r="${CELL / 2}" fill="${p.on}"/></g>`;
       } else {
         const lvl = LEVEL[d.contributionLevel] ?? 0;
-        cells += `<circle cx="${cx}" cy="${cy}" r="${(2.2 + lvl * 0.9).toFixed(1)}" fill="${p.bg[lvl]}"/>`;
+        cells += `<circle cx="${cx}" cy="${cy}" r="${(2.4 + lvl * 0.7).toFixed(1)}" fill="${p.bg[lvl]}"/>`;
       }
     });
   });
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="La palabra ${WORD} escrita con estrellas sobre el mapa de contribuciones, sobre ${totalYear} contribuciones reales del último año">
-<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;fill:${p.text}}.on{transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out both}@keyframes pop{from{opacity:0;transform:scale(.3)}}.t1,.t2,.t3{animation:tw ease-in-out infinite alternate}.t1{animation-duration:2.6s}.t2{animation-duration:3.7s;animation-delay:-1.2s}.t3{animation-duration:4.9s;animation-delay:-2.4s}@keyframes tw{from{opacity:.55}to{opacity:1}}@media (prefers-reduced-motion:reduce){.on,.t1,.t2,.t3{animation:none}}</style>
+<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:15px;fill:${p.text}}.on{transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out both}@keyframes pop{from{opacity:0;transform:scale(.3)}}.t1,.t2,.t3{animation:tw ease-in-out infinite alternate}.t1{animation-duration:2.6s}.t2{animation-duration:3.7s;animation-delay:-1.2s}.t3{animation-duration:4.9s;animation-delay:-2.4s}@keyframes tw{from{opacity:.8}to{opacity:1}}@media (prefers-reduced-motion:reduce){.on,.t1,.t2,.t3{animation:none}}</style>
 ${labels}${cells}
 </svg>
 `;
@@ -101,7 +101,7 @@ for (const [name, p] of Object.entries(palettes)) writeFileSync(`assets/commits-
 const hoy = fecha(new Date().toISOString());
 const contribs = (n) => `${n} ${n === 1 ? "contribución" : "contribuciones"}`;
 const v = today.replace(/-/g, "");
-const status = `<p align="center"><sub>EDICIÓN DEL ${hoy.toUpperCase()} · ${contribs(total7)} esta semana · ${contribs(totalYear)} en el último año</sub></p>`;
+const status = `<p align="center"><b>${contribs(total7)} esta semana</b> · ${contribs(totalYear)} en el último año</p>`;
 
 const lines = [
   `<picture>`,
@@ -109,7 +109,7 @@ const lines = [
   `  <img src="assets/commits-light.svg?v=${v}" width="100%" alt="La palabra ${WORD} escrita con estrellas sobre el mapa de contribuciones">`,
   `</picture>`,
   ``,
-  `<sub>De fondo, mis ${contribs(totalYear)} reales del último año. Cada punto es un día; las estrellas brillantes forman mi nombre.</sub>`,
+  `Cada punto es un día de mi último año: cuanto más brilla, más programé ese día. Las estrellas más brillantes forman mi nombre.`,
   ``,
 ];
 if (last) {

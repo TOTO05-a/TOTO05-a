@@ -1,7 +1,7 @@
-<img src="assets/banner.svg" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala, al centro de una constelación de habilidades.">
+<img src="assets/banner.svg?v=c2" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala, al centro de una constelación de habilidades.">
 
 <!-- status:start -->
-<p align="center"><sub>EDICIÓN DEL 27 NOV · 146 contribuciones esta semana · 855 contribuciones en el último año</sub></p>
+<p align="center"><b>147 contribuciones esta semana</b> · 856 contribuciones en el último año</p>
 <!-- status:end -->
 
 **Desarrollador full stack en Guatemala.** Construyo aplicaciones completas, del modelo de datos a la interfaz, y últimamente les agrego IA: búsqueda con RAG, asistentes de voz y automatizaciones con n8n. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol en un equipo de desarrollo.
@@ -9,33 +9,22 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-proyectos-dark.svg?v=c1">
-  <img src="assets/section-proyectos-light.svg?v=c1" width="100%" alt="Proyectos">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-proyectos-dark.svg?v=c2">
+  <img src="assets/section-proyectos-light.svg?v=c2" width="100%" alt="Proyectos">
 </picture>
 
-**[roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform)**<br>
-Sitio bilingüe y plataforma interna para una empresa de techos: portal de clientes, empleados y administración, CRM y presupuestos en PDF.<br>
-<sub>`TypeScript · React · Astro · Express · PostgreSQL · Docker`</sub>
+<a href="https://github.com/TOTO05-a/roofing-business-platform"><img src="assets/card-roofing-business-platform.svg?v=c2" width="100%" alt="roofing-business-platform: sitio bilingüe y plataforma interna para una empresa de techos, con portal de clientes, empleados y administración, CRM y presupuestos en PDF."></a>
+<a href="https://github.com/TOTO05-a/ruta-ia"><img src="assets/card-ruta-ia.svg?v=c2" width="100%" alt="ruta-ia: orientación académica que recomienda cursos con RAG y muestra la fuente de cada respuesta."></a>
+<a href="https://github.com/TOTO05-a/rag-grafo-finetuning"><img src="assets/card-rag-grafo-finetuning.svg?v=c2" width="100%" alt="rag-grafo-finetuning: convierte documentos en un grafo de conocimiento que se puede consultar."></a>
+<a href="https://github.com/TOTO05-a/applications-api"><img src="assets/card-applications-api.svg?v=c2" width="100%" alt="applications-api: API de candidatos, vacantes y postulaciones con arquitectura por capas. En desarrollo."></a>
 
-**[ruta-ia](https://github.com/TOTO05-a/ruta-ia)**<br>
-Orientación académica que recomienda cursos de un catálogo real con RAG y muestra la fuente de cada respuesta.<br>
-<sub>`RAG · Qdrant · n8n · PostgreSQL · Docker`</sub>
-
-**[rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning)**<br>
-Convierte documentos en un grafo de conocimiento que se puede explorar y consultar con distintas estrategias de IA.<br>
-<sub>`Node.js · MongoDB · RAG · grafos`</sub>
-
-**[applications-api](https://github.com/TOTO05-a/applications-api)**<br>
-API de candidatos, vacantes y postulaciones con arquitectura por capas y validación con Zod. En desarrollo.<br>
-<sub>`Express · PostgreSQL · Zod`</sub>
-
-<sub>En equipo: fui Scrum Master y desarrollador de **FoodieRank**, ranking y reseñas de restaurantes ([backend](https://github.com/DulceMR17/proyecto-express-foodierank-backend) · [frontend](https://github.com/DeniseLH1/proyecto_express_foodierank_frontend)). Más trabajo en mi [portafolio](https://toto05-a.github.io).</sub>
+En equipo fui Scrum Master y desarrollador de **FoodieRank**, ranking y reseñas de restaurantes ([backend](https://github.com/DulceMR17/proyecto-express-foodierank-backend) · [frontend](https://github.com/DeniseLH1/proyecto_express_foodierank_frontend)). Más trabajo en mi [portafolio](https://toto05-a.github.io).
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-commits-dark.svg?v=c1">
-  <img src="assets/section-commits-light.svg?v=c1" width="100%" alt="Un año en commits">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-commits-dark.svg?v=c2">
+  <img src="assets/section-commits-light.svg?v=c2" width="100%" alt="Un año en commits">
 </picture>
 
 <!-- live:start -->
@@ -44,7 +33,7 @@ API de candidatos, vacantes y postulaciones con arquitectura por capas y validac
   <img src="assets/commits-light.svg?v=20261127" width="100%" alt="La palabra EDUARDO escrita con estrellas sobre el mapa de contribuciones">
 </picture>
 
-<sub>De fondo, mis 855 contribuciones reales del último año. Cada punto es un día; las estrellas brillantes forman mi nombre.</sub>
+Cada punto es un día de mi último año: cuanto más brilla, más programé ese día. Las estrellas más brillantes forman mi nombre.
 
 **Actualizado hace poco:** [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz) · [roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform) · [rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning)
 <!-- live:end -->
@@ -52,21 +41,17 @@ API de candidatos, vacantes y postulaciones con arquitectura por capas y validac
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-herramientas-dark.svg?v=c1">
-  <img src="assets/section-herramientas-light.svg?v=c1" width="100%" alt="Herramientas">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-herramientas-dark.svg?v=c2">
+  <img src="assets/section-herramientas-light.svg?v=c2" width="100%" alt="Herramientas">
 </picture>
 
-**Lenguajes** · TypeScript, JavaScript, Python<br>
-**Backend** · Node.js, Express, Prisma, Zod<br>
-**Frontend** · React, Astro, Tailwind<br>
-**Datos e IA** · PostgreSQL, MongoDB, Qdrant, RAG, n8n<br>
-**Calidad y despliegue** · Jest, Vitest, Playwright, Docker, Git
+<img src="assets/tools.svg?v=c2" width="100%" alt="Herramientas. Lenguajes: TypeScript, JavaScript, Python. Backend: Node.js, Express, Prisma, Zod. Frontend: React, Astro, Tailwind. Datos e IA: PostgreSQL, MongoDB, Qdrant, RAG, n8n. Calidad: Jest, Vitest, Playwright, Docker, Git.">
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contacto-dark.svg?v=c1">
-  <img src="assets/section-contacto-light.svg?v=c1" width="100%" alt="Contacto">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contacto-dark.svg?v=c2">
+  <img src="assets/section-contacto-light.svg?v=c2" width="100%" alt="Contacto">
 </picture>
 
 Estoy buscando mi primer rol como desarrollador y me interesan las prácticas y los proyectos en equipo.
@@ -76,6 +61,6 @@ Estoy buscando mi primer rol como desarrollador y me interesan las prácticas y 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=c1">
-  <img src="assets/footer-light.svg?v=c1" width="100%" alt="Fin del mapa">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=c2">
+  <img src="assets/footer-light.svg?v=c2" width="100%" alt="Fin del mapa">
 </picture>
