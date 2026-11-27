@@ -1,10 +1,7 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=ed1">
-  <img src="assets/banner-light.svg?v=ed1" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
-</picture>
+<img src="assets/banner.svg" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala, al centro de una constelación de habilidades.">
 
 <!-- status:start -->
-<p align="center"><sub>EDICIÓN DEL 27 NOV · 145 contribuciones esta semana · 854 contribuciones en el último año</sub></p>
+<p align="center"><sub>EDICIÓN DEL 27 NOV · 146 contribuciones esta semana · 855 contribuciones en el último año</sub></p>
 <!-- status:end -->
 
 **Desarrollador full stack en Guatemala.** Construyo aplicaciones completas, del modelo de datos a la interfaz, y últimamente les agrego IA: búsqueda con RAG, asistentes de voz y automatizaciones con n8n. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol en un equipo de desarrollo.
@@ -12,8 +9,8 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-proyectos-dark.svg?v=ed1">
-  <img src="assets/section-proyectos-light.svg?v=ed1" width="100%" alt="Proyectos">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-proyectos-dark.svg?v=c1">
+  <img src="assets/section-proyectos-light.svg?v=c1" width="100%" alt="Proyectos">
 </picture>
 
 **[roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform)**<br>
@@ -37,17 +34,17 @@ API de candidatos, vacantes y postulaciones con arquitectura por capas y validac
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-commits-dark.svg?v=ed1">
-  <img src="assets/section-commits-light.svg?v=ed1" width="100%" alt="Un año en commits">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-commits-dark.svg?v=c1">
+  <img src="assets/section-commits-light.svg?v=c1" width="100%" alt="Un año en commits">
 </picture>
 
 <!-- live:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/commits-dark.svg?v=20261127">
-  <img src="assets/commits-light.svg?v=20261127" width="100%" alt="La palabra EDUARDO escrita con los cuadros del gráfico de contribuciones">
+  <img src="assets/commits-light.svg?v=20261127" width="100%" alt="La palabra EDUARDO escrita con estrellas sobre el mapa de contribuciones">
 </picture>
 
-<sub>De fondo, mis 854 contribuciones reales del último año. Las letras se encienden encima.</sub>
+<sub>De fondo, mis 855 contribuciones reales del último año. Cada punto es un día; las estrellas brillantes forman mi nombre.</sub>
 
 **Actualizado hace poco:** [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz) · [roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform) · [rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning)
 <!-- live:end -->
@@ -55,8 +52,8 @@ API de candidatos, vacantes y postulaciones con arquitectura por capas y validac
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-herramientas-dark.svg?v=ed1">
-  <img src="assets/section-herramientas-light.svg?v=ed1" width="100%" alt="Herramientas">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-herramientas-dark.svg?v=c1">
+  <img src="assets/section-herramientas-light.svg?v=c1" width="100%" alt="Herramientas">
 </picture>
 
 **Lenguajes** · TypeScript, JavaScript, Python<br>
@@ -68,8 +65,8 @@ API de candidatos, vacantes y postulaciones con arquitectura por capas y validac
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contacto-dark.svg?v=ed1">
-  <img src="assets/section-contacto-light.svg?v=ed1" width="100%" alt="Contacto">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contacto-dark.svg?v=c1">
+  <img src="assets/section-contacto-light.svg?v=c1" width="100%" alt="Contacto">
 </picture>
 
 Estoy buscando mi primer rol como desarrollador y me interesan las prácticas y los proyectos en equipo.
@@ -79,6 +76,6 @@ Estoy buscando mi primer rol como desarrollador y me interesan las prácticas y 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=ed1">
-  <img src="assets/footer-light.svg?v=ed1" width="100%" alt="Fin de la edición">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=c1">
+  <img src="assets/footer-light.svg?v=c1" width="100%" alt="Fin del mapa">
 </picture>

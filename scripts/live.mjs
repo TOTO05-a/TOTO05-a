@@ -59,9 +59,10 @@ const start = Math.max(0, Math.floor((cols - wordCols) / 2));
 const lit = new Set();
 [...WORD].forEach((ch, i) => GLYPHS[ch].forEach((row, r) => [...row].forEach((bit, c) => bit === "1" && lit.add(`${start + i * 6 + c},${r}`))));
 
+// Mapa de estrellas: cada día es un punto; más contribuciones, punto más brillante.
 const palettes = {
-  dark: { bg: ["#161b22", "#1b2b2c", "#1f3a39", "#244a47", "#2a5b55"], on: ["#26a641", "#39d353"], text: "#8d96a0" },
-  light: { bg: ["#ebedf0", "#dce9e5", "#cde0da", "#bdd6cf", "#adcdc3"], on: ["#30a14e", "#216e39"], text: "#59636e" },
+  dark: { bg: ["#1a2033", "#22304f", "#2b4170", "#355391", "#4166b3"], on: ["#7dd3fc", "#e0f2fe"], text: "#8d96a0" },
+  light: { bg: ["#e6ebf2", "#d3deeb", "#bfd0e4", "#aac2dd", "#94b3d6"], on: ["#0369a1", "#0c4a6e"], text: "#59636e" },
 };
 const CELL = 13, GAP = 3, STEP = CELL + GAP, OX = 0, OY = 22;
 const width = cols * STEP - GAP, height = OY + 7 * STEP - GAP;
@@ -76,16 +77,19 @@ function grid(p) {
     const offset = c === 0 ? 7 - w.contributionDays.length : 0;
     w.contributionDays.forEach((d, i) => {
       const r = i + offset, x = OX + c * STEP, y = OY + r * STEP;
+      const cx = x + CELL / 2, cy = y + CELL / 2;
       if (lit.has(`${c},${r}`)) {
         const delay = (0.2 + (c - start) * 0.04 + r * 0.012).toFixed(2);
-        cells += `<rect class="on" style="animation-delay:${delay}s" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${p.on[(c + r) % 2]}"/>`;
+        const tw = ["t1", "t2", "t3"][(c * 7 + r) % 3];
+        cells += `<g class="on" style="animation-delay:${delay}s"><circle class="${tw}" cx="${cx}" cy="${cy}" r="${CELL / 2 - 0.5}" fill="${p.on[(c + r) % 2]}"/></g>`;
       } else {
-        cells += `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${p.bg[LEVEL[d.contributionLevel] ?? 0]}"/>`;
+        const lvl = LEVEL[d.contributionLevel] ?? 0;
+        cells += `<circle cx="${cx}" cy="${cy}" r="${(2.2 + lvl * 0.9).toFixed(1)}" fill="${p.bg[lvl]}"/>`;
       }
     });
   });
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="La palabra ${WORD} escrita con los cuadros del gráfico de contribuciones, sobre ${totalYear} contribuciones reales del último año">
-<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;fill:${p.text}}.on{transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out both}@keyframes pop{from{opacity:0;transform:scale(.3)}}@media (prefers-reduced-motion:reduce){.on{animation:none}}</style>
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="La palabra ${WORD} escrita con estrellas sobre el mapa de contribuciones, sobre ${totalYear} contribuciones reales del último año">
+<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;fill:${p.text}}.on{transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out both}@keyframes pop{from{opacity:0;transform:scale(.3)}}.t1,.t2,.t3{animation:tw ease-in-out infinite alternate}.t1{animation-duration:2.6s}.t2{animation-duration:3.7s;animation-delay:-1.2s}.t3{animation-duration:4.9s;animation-delay:-2.4s}@keyframes tw{from{opacity:.55}to{opacity:1}}@media (prefers-reduced-motion:reduce){.on,.t1,.t2,.t3{animation:none}}</style>
 ${labels}${cells}
 </svg>
 `;
@@ -102,10 +106,10 @@ const status = `<p align="center"><sub>EDICIÓN DEL ${hoy.toUpperCase()} · ${co
 const lines = [
   `<picture>`,
   `  <source media="(prefers-color-scheme: dark)" srcset="assets/commits-dark.svg?v=${v}">`,
-  `  <img src="assets/commits-light.svg?v=${v}" width="100%" alt="La palabra ${WORD} escrita con los cuadros del gráfico de contribuciones">`,
+  `  <img src="assets/commits-light.svg?v=${v}" width="100%" alt="La palabra ${WORD} escrita con estrellas sobre el mapa de contribuciones">`,
   `</picture>`,
   ``,
-  `<sub>De fondo, mis ${contribs(totalYear)} reales del último año. Las letras se encienden encima.</sub>`,
+  `<sub>De fondo, mis ${contribs(totalYear)} reales del último año. Cada punto es un día; las estrellas brillantes forman mi nombre.</sub>`,
   ``,
 ];
 if (last) {
