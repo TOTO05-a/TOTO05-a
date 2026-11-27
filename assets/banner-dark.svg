@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="880" height="370" role="img" aria-label="Eduardo Antonio Cruz Bolaños: Desarrollador full stack · Guatemala. Diagrama de una petición que entra a una API y se reparte entre PostgreSQL, RAG y n8n.">
+  <style>
+    .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px}
+    .name{font-weight:700;font-size:40px;letter-spacing:-0.5px}
+    .role{font-weight:500;font-size:17px}
+    .node{fill:#132036;stroke:#1e3a4a;stroke-width:1.2}
+    .edge{fill:none;stroke:#1e3a4a;stroke-width:1.6}
+    .nt{font-weight:600;font-size:13px}
+    .pulse{animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.35}}
+    @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+  </style>
+  <rect width="880" height="370" rx="14" fill="#0f172a"/>
+  <text class="mono" x="40" y="52" fill="#14b8a6">// sistema en producción</text>
+  <g transform="translate(640 30)">
+    <rect class="node" width="200" height="30" rx="15"/>
+    <circle class="pulse" cx="18" cy="15" r="4.5" fill="#3fb950"/>
+    <text class="mono" x="32" y="19.5" fill="#f8fafc">disponible para trabajar</text>
+  </g>
+  <text class="sans name" x="40" y="104" fill="#f8fafc">Eduardo Antonio Cruz Bolaños</text>
+  <text class="sans role" x="40" y="136" fill="#94a3b8">Desarrollador full stack · Guatemala</text>
+  <text class="mono" x="40" y="176" fill="#94a3b8">TypeScript · Node.js · React · PostgreSQL · MongoDB · Docker</text>
+
+  <path id="pa" class="edge" d="M150 273 H210"/>
+  <path id="p0" class="edge" d="M360 273 C395 273 395 213 430 213"/>
+  <path id="p1" class="edge" d="M360 273 C395 273 395 273 430 273"/>
+  <path id="p2" class="edge" d="M360 273 C395 273 395 333 430 333"/>
+
+  <rect class="node" x="40" y="255" width="110" height="36" rx="8"/>
+  <text class="sans nt" x="95" y="278" text-anchor="middle" fill="#f8fafc">petición</text>
+  <rect class="node" x="210" y="255" width="150" height="36" rx="8" style="stroke:#14b8a6"/>
+  <text class="sans nt" x="285" y="278" text-anchor="middle" fill="#f8fafc">API · Node / Express</text>
+  <rect class="node" x="430" y="195" width="150" height="36" rx="8"/>
+  <text class="sans nt" x="505" y="218" text-anchor="middle" fill="#f8fafc">PostgreSQL</text>
+  <text class="mono" x="600" y="217" fill="#5eead4">→ roofing-business-platform</text>
+  <rect class="node" x="430" y="255" width="150" height="36" rx="8"/>
+  <text class="sans nt" x="505" y="278" text-anchor="middle" fill="#f8fafc">Qdrant · RAG</text>
+  <text class="mono" x="600" y="277" fill="#5eead4">→ ruta-ia · rag-grafo-finetuning</text>
+  <rect class="node" x="430" y="315" width="150" height="36" rx="8"/>
+  <text class="sans nt" x="505" y="338" text-anchor="middle" fill="#f8fafc">n8n · flujos con IA</text>
+  <text class="mono" x="600" y="337" fill="#5eead4">→ justificación de inasistencias</text>
+
+  <circle r="4" fill="#5eead4"><animateMotion dur="1s" repeatCount="indefinite"><mpath href="#pa"/></animateMotion></circle>
+  <circle r="4" fill="#5eead4"><animateMotion dur="1.4s" begin="0.20s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion></circle>
+  <circle r="4" fill="#5eead4"><animateMotion dur="1.4s" begin="0.65s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+  <circle r="4" fill="#5eead4"><animateMotion dur="1.4s" begin="1.10s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+</svg>
