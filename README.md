@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala. Diagrama de una petición que entra a una API y se reparte entre PostgreSQL, RAG y n8n.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=portada1">
+  <img src="assets/banner-light.svg?v=portada1" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
 </picture>
 
 <!-- status:start -->
