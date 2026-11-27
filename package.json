@@ -1,0 +1,13 @@
+{
+  "name": "perfil-github",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "banner": "node scripts/banner.mjs",
+    "live": "node scripts/live.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/anton": "^5.1.0",
+    "opentype.js": "^1.3.4"
+  }
+}

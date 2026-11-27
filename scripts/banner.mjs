@@ -1,59 +1,74 @@
-// Genera assets/banner-dark.svg y assets/banner-light.svg.
-// Uso: node scripts/banner.mjs
-import { mkdirSync, writeFileSync } from "node:fs";
+// Genera assets/banner-dark.svg y assets/banner-light.svg (estilo portada de revista).
+// Las letras grandes se convierten en trazos con la fuente Anton (OFL), así se ven
+// iguales en cualquier navegador aunque GitHub no cargue fuentes externas.
+// Uso: npm install && node scripts/banner.mjs
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import opentype from "opentype.js";
 
-const NAME = "Eduardo Antonio Cruz Bolaños";
-const ROLE = "Desarrollador full stack · Guatemala";
-const STACK = "TypeScript · Node.js · React · PostgreSQL · MongoDB · Docker";
+const fontBuf = readFileSync("node_modules/@fontsource/anton/files/anton-latin-400-normal.woff");
+const font = opentype.parse(fontBuf.buffer.slice(fontBuf.byteOffset, fontBuf.byteOffset + fontBuf.byteLength));
+const capRatio = font.tables.os2.sCapHeight / font.unitsPerEm;
+
+const W = 920, H = 300, X = 40, BLOCK = 410;
+const LINE1 = "EDUARDO";
+const LINE2 = "ANTONIO CRUZ BOLAÑOS";
+const COVER = ["APIs y bases de datos", "Aplicaciones web completas", "IA aplicada: RAG y voz"];
 
 const themes = {
-  dark: { bg: "#0f172a", fg: "#f8fafc", muted: "#94a3b8", teal: "#14b8a6", mint: "#5eead4", node: "#132036", edge: "#1e3a4a", ok: "#3fb950" },
-  light: { bg: "#f0fdfa", fg: "#0f172a", muted: "#475569", teal: "#0f766e", mint: "#0d9488", node: "#ffffff", edge: "#99d5cc", ok: "#1a7f37" },
+  dark: { bg: "#0b1416", ink: "#eef6f5", accent: "#5eead4", muted: "#9fb3b1" },
+  light: { bg: "#eaf8f5", ink: "#0f172a", accent: "#0f766e", muted: "#334155" },
 };
 
-const targets = [
-  { y: 195, label: "PostgreSQL", project: "→ roofing-business-platform" },
-  { y: 255, label: "Qdrant · RAG", project: "→ ruta-ia · rag-grafo-finetuning" },
-  { y: 315, label: "n8n · flujos con IA", project: "→ justificación de inasistencias" },
-];
+// Ajusta el tamaño para que la línea mida exactamente BLOCK px de ancho.
+function fitted(text, width) {
+  const size = width / font.getAdvanceWidth(text, 1, { kerning: true });
+  return { size, cap: size * capRatio };
+}
+const l1 = fitted(LINE1, BLOCK);
+const l2 = fitted(LINE2, BLOCK);
+const top = 76;
+const y1 = top + l1.cap;
+const y2 = y1 + 16 + l2.cap;
+const path = (text, y, size) => font.getPath(text, X, y, size, { kerning: true }).toPathData(1);
+const p1 = path(LINE1, y1, l1.size);
+const p2 = path(LINE2, y2, l2.size);
+const bottomRule = Math.round(y2 + 22);
 
-const svg = (c) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="880" height="370" role="img" aria-label="${NAME}: ${ROLE}. Diagrama de una petición que entra a una API y se reparte entre PostgreSQL, RAG y n8n.">
+const svg = (c) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Eduardo Antonio Cruz Bolaños. Desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
   <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px;letter-spacing:2px;font-weight:700}
     .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
-    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px}
-    .name{font-weight:700;font-size:40px;letter-spacing:-0.5px}
-    .role{font-weight:500;font-size:17px}
-    .node{fill:${c.node};stroke:${c.edge};stroke-width:1.2}
-    .edge{fill:none;stroke:${c.edge};stroke-width:1.6}
-    .nt{font-weight:600;font-size:13px}
-    .pulse{animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{50%{opacity:.35}}
-    @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+    .rule{transform-box:fill-box;transform-origin:left;animation:draw .9s cubic-bezier(.2,.7,.2,1) both}
+    .rise{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+    .fade{animation:fade .6s ease-out both}
+    @keyframes draw{from{transform:scaleX(0)}}
+    @keyframes rise{from{transform:translateY(46px);opacity:0}}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}}
+    @media (prefers-reduced-motion:reduce){.rule,.rise,.fade{animation:none}}
   </style>
-  <rect width="880" height="370" rx="14" fill="${c.bg}"/>
-  <text class="mono" x="40" y="52" fill="${c.teal}">// sistema en producción</text>
-  <g transform="translate(640 30)">
-    <rect class="node" width="200" height="30" rx="15"/>
-    <circle class="pulse" cx="18" cy="15" r="4.5" fill="${c.ok}"/>
-    <text class="mono" x="32" y="19.5" fill="${c.fg}">disponible para trabajar</text>
+  <defs>
+    <clipPath id="c1"><rect x="0" y="${top - 4}" width="${W}" height="${Math.ceil(l1.cap) + 8}"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="${Math.floor(y2 - l2.cap) - 4}" width="${W}" height="${Math.ceil(l2.cap) + 10}"/></clipPath>
+  </defs>
+  <rect width="${W}" height="${H}" rx="12" fill="${c.bg}"/>
+  <text class="mono" x="${X}" y="44" fill="${c.accent}">Nº 001 · DESARROLLADOR FULL STACK</text>
+  <text class="mono" x="${W - X}" y="44" text-anchor="end" fill="${c.accent}">GUATEMALA · 2026</text>
+  <rect class="rule" x="${X}" y="57" width="${W - 2 * X}" height="2" fill="${c.ink}"/>
+  <g clip-path="url(#c1)"><path class="rise" style="animation-delay:.15s" d="${p1}" fill="${c.ink}"/></g>
+  <g clip-path="url(#c2)"><path class="rise" style="animation-delay:.35s" d="${p2}" fill="${c.accent}"/></g>
+  <g class="fade" style="animation-delay:.7s">
+    <text class="mono" x="580" y="${top + 12}" fill="${c.muted}">EN ESTA EDICIÓN</text>
   </g>
-  <text class="sans name" x="40" y="104" fill="${c.fg}">${NAME}</text>
-  <text class="sans role" x="40" y="136" fill="${c.muted}">${ROLE}</text>
-  <text class="mono" x="40" y="176" fill="${c.muted}">${STACK}</text>
-
-  <path id="pa" class="edge" d="M150 273 H210"/>
-  ${targets.map((t, i) => `<path id="p${i}" class="edge" d="M360 273 C395 273 395 ${t.y + 18} 430 ${t.y + 18}"/>`).join("\n  ")}
-
-  <rect class="node" x="40" y="255" width="110" height="36" rx="8"/>
-  <text class="sans nt" x="95" y="278" text-anchor="middle" fill="${c.fg}">petición</text>
-  <rect class="node" x="210" y="255" width="150" height="36" rx="8" style="stroke:${c.teal}"/>
-  <text class="sans nt" x="285" y="278" text-anchor="middle" fill="${c.fg}">API · Node / Express</text>
-  ${targets.map((t) => `<rect class="node" x="430" y="${t.y}" width="150" height="36" rx="8"/>
-  <text class="sans nt" x="505" y="${t.y + 23}" text-anchor="middle" fill="${c.fg}">${t.label}</text>
-  <text class="mono" x="600" y="${t.y + 22}" fill="${c.mint}">${t.project}</text>`).join("\n  ")}
-
-  <circle r="4" fill="${c.mint}"><animateMotion dur="1s" repeatCount="indefinite"><mpath href="#pa"/></animateMotion></circle>
-  ${targets.map((_, i) => `<circle r="4" fill="${c.mint}"><animateMotion dur="1.4s" begin="${(0.2 + i * 0.45).toFixed(2)}s" repeatCount="indefinite"><mpath href="#p${i}"/></animateMotion></circle>`).join("\n  ")}
+  ${COVER.map((t, i) => {
+    const y = top + 50 + i * ((y2 - 6 - (top + 50)) / 2);
+    return `<g class="fade" style="animation-delay:${(0.85 + i * 0.15).toFixed(2)}s">
+    <rect x="580" y="${y - 20}" width="18" height="3" fill="${c.accent}"/>
+    <text class="sans" x="580" y="${y + 6}" font-size="21" font-weight="600" fill="${c.ink}">${t}</text>
+  </g>`;
+  }).join("\n  ")}
+  <rect class="rule" style="animation-delay:.2s" x="${X}" y="${bottomRule}" width="${W - 2 * X}" height="2" fill="${c.ink}"/>
+  <text class="sans" x="${X}" y="${bottomRule + 24}" font-size="13" font-weight="500" fill="${c.muted}">Disponible para mi primer rol como desarrollador</text>
+  <text class="mono" x="${W - X}" y="${bottomRule + 24}" text-anchor="end" style="letter-spacing:1px;font-weight:400" fill="${c.muted}">14.6349° N · 90.5069° O</text>
 </svg>
 `;
 
@@ -62,3 +77,4 @@ for (const [name, colors] of Object.entries(themes)) {
   writeFileSync(`assets/banner-${name}.svg`, svg(colors));
   console.log(`assets/banner-${name}.svg`);
 }
+console.log({ l1: Math.round(l1.size), l2: Math.round(l2.size), y1: Math.round(y1), y2: Math.round(y2), bottomRule });

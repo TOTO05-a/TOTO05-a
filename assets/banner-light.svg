@@ -1,48 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 370" width="880" height="370" role="img" aria-label="Eduardo Antonio Cruz Bolaños: Desarrollador full stack · Guatemala. Diagrama de una petición que entra a una API y se reparte entre PostgreSQL, RAG y n8n.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="920" height="300" role="img" aria-label="Eduardo Antonio Cruz Bolaños. Desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
   <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px;letter-spacing:2px;font-weight:700}
     .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
-    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px}
-    .name{font-weight:700;font-size:40px;letter-spacing:-0.5px}
-    .role{font-weight:500;font-size:17px}
-    .node{fill:#ffffff;stroke:#99d5cc;stroke-width:1.2}
-    .edge{fill:none;stroke:#99d5cc;stroke-width:1.6}
-    .nt{font-weight:600;font-size:13px}
-    .pulse{animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{50%{opacity:.35}}
-    @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+    .rule{transform-box:fill-box;transform-origin:left;animation:draw .9s cubic-bezier(.2,.7,.2,1) both}
+    .rise{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+    .fade{animation:fade .6s ease-out both}
+    @keyframes draw{from{transform:scaleX(0)}}
+    @keyframes rise{from{transform:translateY(46px);opacity:0}}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}}
+    @media (prefers-reduced-motion:reduce){.rule,.rise,.fade{animation:none}}
   </style>
-  <rect width="880" height="370" rx="14" fill="#f0fdfa"/>
-  <text class="mono" x="40" y="52" fill="#0f766e">// sistema en producción</text>
-  <g transform="translate(640 30)">
-    <rect class="node" width="200" height="30" rx="15"/>
-    <circle class="pulse" cx="18" cy="15" r="4.5" fill="#1a7f37"/>
-    <text class="mono" x="32" y="19.5" fill="#0f172a">disponible para trabajar</text>
+  <defs>
+    <clipPath id="c1"><rect x="0" y="72" width="920" height="115"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="194" width="920" height="51"/></clipPath>
+  </defs>
+  <rect width="920" height="300" rx="12" fill="#eaf8f5"/>
+  <text class="mono" x="40" y="44" fill="#0f766e">Nº 001 · DESARROLLADOR FULL STACK</text>
+  <text class="mono" x="880" y="44" text-anchor="end" fill="#0f766e">GUATEMALA · 2026</text>
+  <rect class="rule" x="40" y="57" width="840" height="2" fill="#0f172a"/>
+  <g clip-path="url(#c1)"><path class="rise" style="animation-delay:.15s" d="M88.5 182.1L44.7 182.1L44.7 76L87.2 76L87.2 96.5L66.3 96.5L66.3 117.2L86.3 117.2L86.3 137.1L66.3 137.1L66.3 161.4L88.5 161.4L88.5 182.1ZM124.0 182.1L95.5 182.1L95.5 76L124.7 76Q136.2 76 142.0 82.4Q147.8 88.7 147.8 101.0L147.8 101.0L147.8 150.7Q147.8 165.7 142.5 173.9Q137.2 182.1 124.0 182.1L124.0 182.1ZM116.9 94.6L116.9 163.4L120.6 163.4Q126.4 163.4 126.4 157.7L126.4 157.7L126.4 103.0Q126.4 97.6 125.0 96.1Q123.6 94.6 119.2 94.6L119.2 94.6L116.9 94.6ZM181.0 183.1L181.0 183.1Q167.7 183.1 161.5 175.7Q155.2 168.2 155.2 153.7L155.2 153.7L155.2 76L175.8 76L175.8 152.9Q175.8 155.5 176.1 158.0Q176.4 160.4 177.5 162.0Q178.6 163.6 181.0 163.6L181.0 163.6Q183.5 163.6 184.5 162.0Q185.6 160.5 185.9 158.0Q186.2 155.5 186.2 152.9L186.2 152.9L186.2 76L206.8 76L206.8 153.7Q206.8 168.2 200.5 175.7Q194.3 183.1 181.0 183.1ZM232.7 182.1L212.0 182.1L222.3 76L258.3 76L268.4 182.1L248.3 182.1L246.8 165.0L234.0 165.0L232.7 182.1ZM239.5 94.1L235.5 148.1L245.2 148.1L240.5 94.1L239.5 94.1ZM296.3 182.1L274.9 182.1L274.9 76L307.4 76Q315.6 76 319.7 79.7Q323.9 83.4 325.3 90.1Q326.7 96.7 326.7 105.7L326.7 105.7Q326.7 114.4 324.5 119.6Q322.3 124.8 316.2 126.8L316.2 126.8Q321.3 127.8 323.3 131.8Q325.3 135.7 325.3 142.0L325.3 142.0L325.3 182.1L304.4 182.1L304.4 140.6Q304.4 135.9 302.5 134.8Q300.6 133.7 296.3 133.7L296.3 133.7L296.3 182.1ZM296.5 95.7L296.5 115.3L301.6 115.3Q306.0 115.3 306.0 105.7L306.0 105.7Q306.0 99.5 305.0 97.6Q304.1 95.7 301.4 95.7L301.4 95.7L296.5 95.7ZM362.2 182.1L333.7 182.1L333.7 76L362.9 76Q374.4 76 380.2 82.4Q386.0 88.7 386.0 101.0L386.0 101.0L386.0 150.7Q386.0 165.7 380.7 173.9Q375.4 182.1 362.2 182.1L362.2 182.1ZM355.1 94.6L355.1 163.4L358.8 163.4Q364.6 163.4 364.6 157.7L364.6 157.7L364.6 103.0Q364.6 97.6 363.2 96.1Q361.8 94.6 357.4 94.6L357.4 94.6L355.1 94.6ZM420.0 183.1L420.0 183.1Q407.2 183.1 400.5 175.4Q393.8 167.7 393.8 153.2L393.8 153.2L393.8 102.8Q393.8 89.1 400.5 82.1Q407.1 75.0 420.0 75.0L420.0 75.0Q432.8 75.0 439.5 82.1Q446.1 89.1 446.1 102.8L446.1 102.8L446.1 153.2Q446.1 167.7 439.4 175.4Q432.7 183.1 420.0 183.1ZM420.2 163.6L420.2 163.6Q425.0 163.6 425.0 154.2L425.0 154.2L425.0 102.4Q425.0 94.6 420.3 94.6L420.3 94.6Q415.0 94.6 415.0 102.6L415.0 102.6L415.0 154.3Q415.0 159.3 416.2 161.4Q417.4 163.6 420.2 163.6Z" fill="#0f172a"/></g>
+  <g clip-path="url(#c2)"><path class="rise" style="animation-delay:.35s" d="M48.6 238.8L40.7 238.8L44.6 198.1L58.4 198.1L62.3 238.8L54.6 238.8L54.0 232.2L49.1 232.2L48.6 238.8ZM51.2 205.1L49.7 225.7L53.4 225.7L51.6 205.1L51.2 205.1ZM72.7 238.8L64.7 238.8L64.7 198.1L73.1 198.1L76.8 217.6L76.8 198.1L84.7 198.1L84.7 238.8L76.7 238.8L72.7 218.4L72.7 238.8ZM99.9 238.8L91.8 238.8L91.8 205.9L87.0 205.9L87.0 198.1L104.7 198.1L104.7 205.9L99.9 205.9L99.9 238.8ZM116.7 239.1L116.7 239.1Q111.8 239.1 109.2 236.2Q106.7 233.2 106.7 227.7L106.7 227.7L106.7 208.4Q106.7 203.2 109.2 200.5Q111.8 197.8 116.7 197.8L116.7 197.8Q121.6 197.8 124.1 200.5Q126.7 203.2 126.7 208.4L126.7 208.4L126.7 227.7Q126.7 233.2 124.1 236.2Q121.6 239.1 116.7 239.1ZM116.8 231.6L116.8 231.6Q118.6 231.6 118.6 228.1L118.6 228.1L118.6 208.2Q118.6 205.2 116.8 205.2L116.8 205.2Q114.8 205.2 114.8 208.3L114.8 208.3L114.8 228.1Q114.8 230.0 115.2 230.8Q115.7 231.6 116.8 231.6ZM137.9 238.8L130.0 238.8L130.0 198.1L138.3 198.1L142.1 217.6L142.1 198.1L149.9 198.1L149.9 238.8L142.0 238.8L137.9 218.4L137.9 238.8ZM161.0 238.8L153.2 238.8L153.2 198.1L161.0 198.1L161.0 238.8ZM173.9 239.1L173.9 239.1Q169.1 239.1 166.5 236.2Q163.9 233.2 163.9 227.7L163.9 227.7L163.9 208.4Q163.9 203.2 166.5 200.5Q169.0 197.8 173.9 197.8L173.9 197.8Q178.8 197.8 181.4 200.5Q183.9 203.2 183.9 208.4L183.9 208.4L183.9 227.7Q183.9 233.2 181.4 236.2Q178.8 239.1 173.9 239.1ZM174.0 231.6L174.0 231.6Q175.8 231.6 175.8 228.1L175.8 228.1L175.8 208.2Q175.8 205.2 174.0 205.2L174.0 205.2Q172.0 205.2 172.0 208.3L172.0 208.3L172.0 228.1Q172.0 230.0 172.5 230.8Q172.9 231.6 174.0 231.6ZM207.8 239.1L207.8 239.1Q203.4 239.1 200.7 236.4Q198.0 233.6 198.0 228.7L198.0 228.7L198.0 210.0Q198.0 204.0 200.3 200.9Q202.7 197.8 208.0 197.8L208.0 197.8Q210.8 197.8 213.1 198.8Q215.3 199.9 216.6 202.0Q217.9 204.1 217.9 207.3L217.9 207.3L217.9 214.3L209.8 214.3L209.8 208.3Q209.8 206.5 209.4 205.9Q208.9 205.2 208.0 205.2L208.0 205.2Q206.8 205.2 206.4 206.1Q206.0 206.9 206.0 208.2L206.0 208.2L206.0 228.6Q206.0 230.3 206.5 231.0Q207.0 231.6 208.0 231.6L208.0 231.6Q209.0 231.6 209.4 230.8Q209.8 229.9 209.8 228.6L209.8 228.6L209.8 221.3L218.0 221.3L218.0 228.9Q218.0 234.3 215.3 236.7Q212.6 239.1 207.8 239.1ZM228.9 238.8L220.7 238.8L220.7 198.1L233.2 198.1Q236.3 198.1 237.9 199.6Q239.5 201.0 240.0 203.5Q240.6 206.1 240.6 209.5L240.6 209.5Q240.6 212.8 239.7 214.8Q238.9 216.8 236.6 217.6L236.6 217.6Q238.5 218.0 239.2 219.5Q240.0 221.0 240.0 223.4L240.0 223.4L240.0 238.8L232.0 238.8L232.0 222.9Q232.0 221.1 231.3 220.7Q230.6 220.2 228.9 220.2L228.9 220.2L228.9 238.8ZM229.0 205.7L229.0 213.2L230.9 213.2Q232.6 213.2 232.6 209.5L232.6 209.5Q232.6 207.1 232.3 206.4Q231.9 205.7 230.9 205.7L230.9 205.7L229.0 205.7ZM252.6 239.1L252.6 239.1Q247.6 239.1 245.2 236.3Q242.8 233.4 242.8 227.9L242.8 227.9L242.8 198.1L250.7 198.1L250.7 227.6Q250.7 228.6 250.8 229.5Q250.9 230.4 251.3 231.0Q251.7 231.6 252.6 231.6L252.6 231.6Q253.6 231.6 254.0 231.1Q254.4 230.5 254.5 229.5Q254.6 228.6 254.6 227.6L254.6 227.6L254.6 198.1L262.5 198.1L262.5 227.9Q262.5 233.4 260.1 236.3Q257.7 239.1 252.6 239.1ZM282.0 238.8L264.6 238.8L264.6 231.4L273.9 205.6L265.5 205.6L265.5 198.1L282.4 198.1L282.4 205.2L273.0 231.3L282.0 231.3L282.0 238.8ZM307.1 238.8L296.1 238.8L296.1 198.1L307.1 198.1Q311.5 198.1 313.6 200.3Q315.6 202.4 315.6 207.4L315.6 207.4L315.6 209.2Q315.6 212.1 314.6 213.8Q313.5 215.6 311.4 216.2L311.4 216.2Q314.2 216.9 315.1 219.4Q316.0 222.0 316.0 225.6L316.0 225.6Q316.0 229.6 315.3 232.5Q314.6 235.5 312.6 237.1Q310.7 238.8 307.1 238.8L307.1 238.8ZM304.0 204.4L304.0 213.4L305.7 213.4Q306.8 213.4 307.2 212.6Q307.5 211.7 307.5 210.5L307.5 210.5L307.5 206.4Q307.5 204.4 305.8 204.4L305.8 204.4L304.0 204.4ZM304.9 231.6L304.9 231.6Q308.0 231.6 308.0 228.6L308.0 228.6L308.0 223.5Q308.0 221.8 307.5 220.8Q307.0 219.8 305.5 219.8L305.5 219.8L304.0 219.8L304.0 231.6Q304.6 231.6 304.9 231.6ZM328.4 239.1L328.4 239.1Q323.6 239.1 321.0 236.2Q318.4 233.2 318.4 227.7L318.4 227.7L318.4 208.4Q318.4 203.2 321.0 200.5Q323.5 197.8 328.4 197.8L328.4 197.8Q333.3 197.8 335.9 200.5Q338.4 203.2 338.4 208.4L338.4 208.4L338.4 227.7Q338.4 233.2 335.9 236.2Q333.3 239.1 328.4 239.1ZM328.5 231.6L328.5 231.6Q330.3 231.6 330.3 228.1L330.3 228.1L330.3 208.2Q330.3 205.2 328.5 205.2L328.5 205.2Q326.5 205.2 326.5 208.3L326.5 208.3L326.5 228.1Q326.5 230.0 327.0 230.8Q327.4 231.6 328.5 231.6ZM358.2 238.8L341.7 238.8L341.7 198.1L349.8 198.1L349.8 231.8L358.2 231.8L358.2 238.8ZM367.3 238.8L359.4 238.8L363.3 198.1L377.1 198.1L381.0 238.8L373.3 238.8L372.7 232.2L367.8 232.2L367.3 238.8ZM369.9 205.1L368.4 225.7L372.1 225.7L370.3 205.1L369.9 205.1ZM391.4 238.8L383.5 238.8L383.5 198.1L391.8 198.1L395.5 217.6L395.5 198.1L403.4 198.1L403.4 238.8L395.5 238.8L391.4 218.4L391.4 238.8ZM397.7 195.6L397.7 195.6Q396.0 195.6 394.6 195.0Q393.2 194.5 392.0 194.0Q390.9 193.5 389.9 193.5L389.9 193.5Q389.3 193.5 388.8 193.8Q388.3 194.2 387.8 195.0L387.8 195.0L384.4 193.2Q385.0 191.8 385.6 190.7Q386.3 189.5 387.4 188.8Q388.4 188.1 390.1 188.1L390.1 188.1Q391.7 188.1 393.0 188.6Q394.4 189.1 395.5 189.5Q396.6 190.0 397.5 190.0L397.5 190.0Q398.1 190.0 398.6 189.6Q399.1 189.2 399.6 188.3L399.6 188.3L403.4 189.5Q402.9 191.1 402.2 192.5Q401.5 193.9 400.5 194.7Q399.4 195.6 397.7 195.6ZM416.7 239.1L416.7 239.1Q411.8 239.1 409.2 236.2Q406.7 233.2 406.7 227.7L406.7 227.7L406.7 208.4Q406.7 203.2 409.2 200.5Q411.8 197.8 416.7 197.8L416.7 197.8Q421.6 197.8 424.2 200.5Q426.7 203.2 426.7 208.4L426.7 208.4L426.7 227.7Q426.7 233.2 424.1 236.2Q421.6 239.1 416.7 239.1ZM416.8 231.6L416.8 231.6Q418.6 231.6 418.6 228.1L418.6 228.1L418.6 208.2Q418.6 205.2 416.8 205.2L416.8 205.2Q414.8 205.2 414.8 208.3L414.8 208.3L414.8 228.1Q414.8 230.0 415.2 230.8Q415.7 231.6 416.8 231.6ZM439.6 239.1L439.6 239.1Q434.1 239.1 431.6 236.4Q429.2 233.6 429.2 227.5L429.2 227.5L429.2 223.6L437.2 223.6L437.2 228.6Q437.2 230.1 437.6 230.9Q438.0 231.6 439.1 231.6L439.1 231.6Q440.2 231.6 440.6 231.0Q441.1 230.4 441.1 228.9L441.1 228.9Q441.1 227.0 440.7 225.8Q440.3 224.5 439.4 223.4Q438.5 222.2 436.9 220.7L436.9 220.7L433.2 217.2Q429.2 213.4 429.2 208.4L429.2 208.4Q429.2 203.2 431.6 200.5Q434.0 197.8 438.6 197.8L438.6 197.8Q444.1 197.8 446.5 200.7Q448.8 203.7 448.8 209.8L448.8 209.8L440.6 209.8L440.6 207.0Q440.6 206.2 440.1 205.7Q439.6 205.2 438.8 205.2L438.8 205.2Q437.8 205.2 437.4 205.8Q436.9 206.3 436.9 207.2L436.9 207.2Q436.9 208.0 437.4 209.0Q437.9 210.0 439.2 211.3L439.2 211.3L443.9 215.8Q445.3 217.2 446.5 218.6Q447.7 220.1 448.4 222.1Q449.1 224.1 449.1 226.9L449.1 226.9Q449.1 232.6 447.0 235.9Q444.9 239.1 439.6 239.1Z" fill="#0f766e"/></g>
+  <g class="fade" style="animation-delay:.7s">
+    <text class="mono" x="580" y="88" fill="#334155">EN ESTA EDICIÓN</text>
   </g>
-  <text class="sans name" x="40" y="104" fill="#0f172a">Eduardo Antonio Cruz Bolaños</text>
-  <text class="sans role" x="40" y="136" fill="#475569">Desarrollador full stack · Guatemala</text>
-  <text class="mono" x="40" y="176" fill="#475569">TypeScript · Node.js · React · PostgreSQL · MongoDB · Docker</text>
-
-  <path id="pa" class="edge" d="M150 273 H210"/>
-  <path id="p0" class="edge" d="M360 273 C395 273 395 213 430 213"/>
-  <path id="p1" class="edge" d="M360 273 C395 273 395 273 430 273"/>
-  <path id="p2" class="edge" d="M360 273 C395 273 395 333 430 333"/>
-
-  <rect class="node" x="40" y="255" width="110" height="36" rx="8"/>
-  <text class="sans nt" x="95" y="278" text-anchor="middle" fill="#0f172a">petición</text>
-  <rect class="node" x="210" y="255" width="150" height="36" rx="8" style="stroke:#0f766e"/>
-  <text class="sans nt" x="285" y="278" text-anchor="middle" fill="#0f172a">API · Node / Express</text>
-  <rect class="node" x="430" y="195" width="150" height="36" rx="8"/>
-  <text class="sans nt" x="505" y="218" text-anchor="middle" fill="#0f172a">PostgreSQL</text>
-  <text class="mono" x="600" y="217" fill="#0d9488">→ roofing-business-platform</text>
-  <rect class="node" x="430" y="255" width="150" height="36" rx="8"/>
-  <text class="sans nt" x="505" y="278" text-anchor="middle" fill="#0f172a">Qdrant · RAG</text>
-  <text class="mono" x="600" y="277" fill="#0d9488">→ ruta-ia · rag-grafo-finetuning</text>
-  <rect class="node" x="430" y="315" width="150" height="36" rx="8"/>
-  <text class="sans nt" x="505" y="338" text-anchor="middle" fill="#0f172a">n8n · flujos con IA</text>
-  <text class="mono" x="600" y="337" fill="#0d9488">→ justificación de inasistencias</text>
-
-  <circle r="4" fill="#0d9488"><animateMotion dur="1s" repeatCount="indefinite"><mpath href="#pa"/></animateMotion></circle>
-  <circle r="4" fill="#0d9488"><animateMotion dur="1.4s" begin="0.20s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion></circle>
-  <circle r="4" fill="#0d9488"><animateMotion dur="1.4s" begin="0.65s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
-  <circle r="4" fill="#0d9488"><animateMotion dur="1.4s" begin="1.10s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+  <g class="fade" style="animation-delay:0.85s">
+    <rect x="580" y="106" width="18" height="3" fill="#0f766e"/>
+    <text class="sans" x="580" y="132" font-size="21" font-weight="600" fill="#0f172a">APIs y bases de datos</text>
+  </g>
+  <g class="fade" style="animation-delay:1.00s">
+    <rect x="580" y="159.37965525739585" width="18" height="3" fill="#0f766e"/>
+    <text class="sans" x="580" y="185.37965525739585" font-size="21" font-weight="600" fill="#0f172a">Aplicaciones web completas</text>
+  </g>
+  <g class="fade" style="animation-delay:1.15s">
+    <rect x="580" y="212.7593105147917" width="18" height="3" fill="#0f766e"/>
+    <text class="sans" x="580" y="238.7593105147917" font-size="21" font-weight="600" fill="#0f172a">IA aplicada: RAG y voz</text>
+  </g>
+  <rect class="rule" style="animation-delay:.2s" x="40" y="261" width="840" height="2" fill="#0f172a"/>
+  <text class="sans" x="40" y="285" font-size="13" font-weight="500" fill="#334155">Disponible para mi primer rol como desarrollador</text>
+  <text class="mono" x="880" y="285" text-anchor="end" style="letter-spacing:1px;font-weight:400" fill="#334155">14.6349° N · 90.5069° O</text>
 </svg>
