@@ -1,7 +1,7 @@
 <img src="assets/banner.svg?v=c2" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala, al centro de una constelación de habilidades.">
 
 <!-- status:start -->
-<p align="center"><b>147 contribuciones esta semana</b> · 856 contribuciones en el último año</p>
+<p align="center"><b>148 contribuciones esta semana</b> · 857 contribuciones en el último año</p>
 <!-- status:end -->
 
 **Desarrollador full stack en Guatemala.** Construyo aplicaciones completas, del modelo de datos a la interfaz, y últimamente les agrego IA: búsqueda con RAG, asistentes de voz y automatizaciones con n8n. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol en un equipo de desarrollo.
@@ -29,8 +29,8 @@ En equipo fui Scrum Master y desarrollador de **FoodieRank**, ranking y reseñas
 
 <!-- live:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/commits-dark.svg?v=20261127">
-  <img src="assets/commits-light.svg?v=20261127" width="100%" alt="La palabra EDUARDO escrita con estrellas sobre el mapa de contribuciones">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/commits-dark.svg?v=20261127b">
+  <img src="assets/commits-light.svg?v=20261127b" width="100%" alt="La palabra ANTONIO escrita con estrellas sobre el mapa de contribuciones">
 </picture>
 
 Cada punto es un día de mi último año: cuanto más brilla, más programé ese día. Las estrellas más brillantes forman mi nombre.

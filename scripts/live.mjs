@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 
 const USER = "TOTO05-a";
-const WORD = "EDUARDO";
+const WORD = "ANTONIO";
 const SKIP = new Set(["TOTO05-a", "toto05-a.github.io"]);
 const TZ = "America/Guatemala";
 const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
@@ -43,14 +43,13 @@ const repos = (await api(`/users/${USER}/repos?sort=pushed&per_page=30&type=owne
   .slice(0, 3);
 
 // 3) Cuadrícula: el fondo son tus contribuciones reales en tonos apagados;
-//    las letras del nombre se encienden en verde, columna por columna.
+//    las letras del nombre se encienden encima, columna por columna.
 const GLYPHS = {
-  E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
-  D: ["11110", "10001", "10001", "10001", "10001", "10001", "11110"],
-  U: ["10001", "10001", "10001", "10001", "10001", "10001", "01110"],
   A: ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
-  R: ["11110", "10001", "10001", "11110", "10100", "10010", "10001"],
+  N: ["10001", "11001", "11001", "10101", "10011", "10011", "10001"],
+  T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
   O: ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+  I: ["11111", "00100", "00100", "00100", "00100", "00100", "11111"],
 };
 const LEVEL = { NONE: 0, FIRST_QUARTILE: 1, SECOND_QUARTILE: 2, THIRD_QUARTILE: 3, FOURTH_QUARTILE: 4 };
 const cols = weeks.length;
@@ -59,11 +58,26 @@ const start = Math.max(0, Math.floor((cols - wordCols) / 2));
 const lit = new Set();
 [...WORD].forEach((ch, i) => GLYPHS[ch].forEach((row, r) => [...row].forEach((bit, c) => bit === "1" && lit.add(`${start + i * 6 + c},${r}`))));
 
-// Mapa de estrellas: cada día es un punto; más contribuciones, punto más brillante.
+// De izquierda a derecha el mapa pasa, poco a poco, de constelación (puntos azules)
+// al gráfico clásico de GitHub (cuadros verdes): color, tamaño y forma se mezclan
+// columna por columna, sin cortes.
 const palettes = {
-  dark: { bg: ["#141a2b", "#19223a", "#1f2c4c", "#26375f", "#2e4373"], on: "#e0f2fe", text: "#8d96a0" },
-  light: { bg: ["#eef2f7", "#e3e9f1", "#d7e0eb", "#cbd7e6", "#bfcee0"], on: "#0c4a6e", text: "#59636e" },
+  dark: {
+    star: { bg: ["#141a2b", "#19223a", "#1f2c4c", "#26375f", "#2e4373"], on: "#e0f2fe" },
+    green: { bg: ["#161b22", "#0f2e1d", "#13432a", "#185a37", "#1d7044"], on: "#39d353" },
+    text: "#8d96a0",
+  },
+  light: {
+    star: { bg: ["#eef2f7", "#e3e9f1", "#d7e0eb", "#cbd7e6", "#bfcee0"], on: "#0c4a6e" },
+    green: { bg: ["#ebedf0", "#cfeed6", "#b0e2bc", "#90d5a2", "#70c888"], on: "#216e39" },
+    text: "#59636e",
+  },
 };
+const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+const mix = (a, b, t) => "#" + hex(a).map((v, i) => Math.round(v + (hex(b)[i] - v) * t).toString(16).padStart(2, "0")).join("");
+const lerp = (a, b, t) => a + (b - a) * t;
+// Curva suave: la mezcla ocurre sobre todo en el centro, sin saltos en ningún punto.
+const blend = (c) => { const x = c / (cols - 1); return x * x * (3 - 2 * x); };
 const CELL = 14, GAP = 3, STEP = CELL + GAP, OX = 0, OY = 28;
 const width = cols * STEP - GAP, height = OY + 7 * STEP - GAP;
 const mes = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString("es", { month: "short", timeZone: "UTC" }).replace(".", "");
@@ -77,14 +91,20 @@ function grid(p) {
     const offset = c === 0 ? 7 - w.contributionDays.length : 0;
     w.contributionDays.forEach((d, i) => {
       const r = i + offset, x = OX + c * STEP, y = OY + r * STEP;
-      const cx = x + CELL / 2, cy = y + CELL / 2;
+      const cx = x + CELL / 2, cy = y + CELL / 2, t = blend(c);
+      // Un cuadro con esquinas que van de círculo (izquierda) a cuadro redondeado (derecha).
+      const shape = (size, fill, cls = "") => {
+        const s = +size.toFixed(2), rx = +lerp(s / 2, 3, t).toFixed(2);
+        return `<rect${cls} x="${(cx - s / 2).toFixed(2)}" y="${(cy - s / 2).toFixed(2)}" width="${s}" height="${s}" rx="${rx}" fill="${fill}"/>`;
+      };
       if (lit.has(`${c},${r}`)) {
         const delay = (0.2 + (c - start) * 0.04 + r * 0.012).toFixed(2);
         const tw = ["t1", "t2", "t3"][(c * 7 + r) % 3];
-        cells += `<g class="on" style="animation-delay:${delay}s"><circle class="${tw}" cx="${cx}" cy="${cy}" r="${CELL / 2}" fill="${p.on}"/></g>`;
+        cells += `<g class="on" style="animation-delay:${delay}s">${shape(CELL, mix(p.star.on, p.green.on, t), ` class="${tw}"`)}</g>`;
       } else {
         const lvl = LEVEL[d.contributionLevel] ?? 0;
-        cells += `<circle cx="${cx}" cy="${cy}" r="${(2.4 + lvl * 0.7).toFixed(1)}" fill="${p.bg[lvl]}"/>`;
+        const size = lerp(2 * (2.4 + lvl * 0.7), CELL - 1, t);
+        cells += shape(size, mix(p.star.bg[lvl], p.green.bg[lvl], t));
       }
     });
   });
