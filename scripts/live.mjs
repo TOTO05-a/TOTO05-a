@@ -65,7 +65,8 @@ for (const [name, p] of Object.entries(palettes)) writeFileSync(`assets/activity
 
 // Bloques del README.
 const hoy = fecha(new Date().toISOString());
-const status = `<p align="center"><sub>🟢 <b>${total7} contribuciones</b> en los últimos 7 días · ${total30} en los últimos 30 · actualizado el ${hoy}</sub></p>`;
+const contribs = (n) => `${n} ${n === 1 ? "contribución" : "contribuciones"}`;
+const status = `<p align="center"><sub>🟢 <b>${contribs(total7)}</b> en los últimos 7 días · ${total30} en los últimos 30 · actualizado el ${hoy}</sub></p>`;
 
 const lines = [
   `<picture>`,
