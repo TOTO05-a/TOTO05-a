@@ -1,67 +1,84 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=portada1">
-  <img src="assets/banner-light.svg?v=portada1" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=ed1">
+  <img src="assets/banner-light.svg?v=ed1" width="100%" alt="Eduardo Antonio Cruz Bolaños, desarrollador full stack en Guatemala: APIs y bases de datos, aplicaciones web completas e IA aplicada.">
 </picture>
 
 <!-- status:start -->
-<p align="center"><sub>🟢 <b>1 contribuciones</b> en los últimos 7 días · 329 en los últimos 30 · actualizado el 27 nov</sub></p>
+<p align="center"><sub>EDICIÓN DEL 27 NOV · 145 contribuciones esta semana · 854 contribuciones en el último año</sub></p>
 <!-- status:end -->
 
-Construyo aplicaciones completas: desde el modelo de datos y la API hasta la interfaz, con pruebas y Docker. Últimamente trabajo con **RAG**, **agentes de IA** y **automatizaciones con n8n**. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol como desarrollador.
+**Desarrollador full stack en Guatemala.** Construyo aplicaciones completas, del modelo de datos a la interfaz, y últimamente les agrego IA: búsqueda con RAG, asistentes de voz y automatizaciones con n8n. Estudio Ingeniería de Sistemas en la UMG y me formé en desarrollo de software en Campuslands. Busco mi primer rol en un equipo de desarrollo.
 
-## Proyectos
+<br>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/TOTO05-a/roofing-business-platform"><b>roofing-business-platform</b></a><br>
-      <sub>Sitio bilingüe y plataforma interna para una empresa de techos: portal de clientes, empleados y administración. Monorepo con API, app y sitio público.</sub><br>
-      <code>TypeScript</code> <code>React</code> <code>Astro</code> <code>Express</code> <code>PostgreSQL</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/TOTO05-a/ruta-ia"><b>ruta-ia</b></a><br>
-      <sub>Orientación académica: recomienda cursos de un catálogo real con RAG y muestra las fuentes de cada respuesta.</sub><br>
-      <code>RAG</code> <code>Qdrant</code> <code>n8n</code> <code>PostgreSQL</code> <code>Docker</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/TOTO05-a/rag-grafo-finetuning"><b>rag-grafo-finetuning</b></a><br>
-      <sub>Convierte documentos en un grafo de conocimiento que se puede explorar y consultar, con cinco estrategias de ajuste y uso de modelos.</sub><br>
-      <code>Node.js</code> <code>MongoDB</code> <code>RAG</code> <code>Grafos</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/TOTO05-a/applications-api"><b>applications-api</b></a><br>
-      <sub>API de candidatos, vacantes y postulaciones con arquitectura por capas, validación con Zod, errores centralizados y pruebas de integración.</sub><br>
-      <code>Express</code> <code>PostgreSQL</code> <code>Zod</code> <code>Jest</code>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-proyectos-dark.svg?v=ed1">
+  <img src="assets/section-proyectos-light.svg?v=ed1" width="100%" alt="Proyectos">
+</picture>
 
-<sub>En equipo: fui Scrum Master y desarrollador de <b>FoodieRank</b>, ranking y reseñas de restaurantes (<a href="https://github.com/DulceMR17/proyecto-express-foodierank-backend">backend</a> · <a href="https://github.com/DeniseLH1/proyecto_express_foodierank_frontend">frontend</a>). Más proyectos en mi <a href="https://toto05-a.github.io">portafolio</a>.</sub>
+**[roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform)**<br>
+Sitio bilingüe y plataforma interna para una empresa de techos: portal de clientes, empleados y administración, CRM y presupuestos en PDF.<br>
+<sub>`TypeScript · React · Astro · Express · PostgreSQL · Docker`</sub>
 
-## Esta semana
+**[ruta-ia](https://github.com/TOTO05-a/ruta-ia)**<br>
+Orientación académica que recomienda cursos de un catálogo real con RAG y muestra la fuente de cada respuesta.<br>
+<sub>`RAG · Qdrant · n8n · PostgreSQL · Docker`</sub>
+
+**[rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning)**<br>
+Convierte documentos en un grafo de conocimiento que se puede explorar y consultar con distintas estrategias de IA.<br>
+<sub>`Node.js · MongoDB · RAG · grafos`</sub>
+
+**[applications-api](https://github.com/TOTO05-a/applications-api)**<br>
+API de candidatos, vacantes y postulaciones con arquitectura por capas y validación con Zod. En desarrollo.<br>
+<sub>`Express · PostgreSQL · Zod`</sub>
+
+<sub>En equipo: fui Scrum Master y desarrollador de **FoodieRank**, ranking y reseñas de restaurantes ([backend](https://github.com/DulceMR17/proyecto-express-foodierank-backend) · [frontend](https://github.com/DeniseLH1/proyecto_express_foodierank_frontend)). Más trabajo en mi [portafolio](https://toto05-a.github.io).</sub>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-commits-dark.svg?v=ed1">
+  <img src="assets/section-commits-light.svg?v=ed1" width="100%" alt="Un año en commits">
+</picture>
 
 <!-- live:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img src="assets/activity-light.svg" width="420" alt="Contribuciones por día en los últimos 7 días">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/commits-dark.svg?v=20261127">
+  <img src="assets/commits-light.svg?v=20261127" width="100%" alt="La palabra EDUARDO escrita con los cuadros del gráfico de contribuciones">
 </picture>
 
-**Último commit público:** `feat(empleados): agrega comentario de cabecera en cada archivo` en [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz/commit/72abaeb6160e5962b4c0a5a522ad80ded89a83b9) · 17 nov
+<sub>De fondo, mis 854 contribuciones reales del último año. Las letras se encienden encima.</sub>
 
-**Actualizado hace poco:**
-- [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz) · prueba técnica: aplicación de consola en node.js para gestionar empleados con poo, solid y pruebas
-- [roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform) · plataforma web para roofing residencial: sitio bilingüe, crm, presupuestos con pdf, portal de clientes y api con rls en postgresql
-- [rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning) · rag con grafo de conocimiento interactivo y cinco estrategias de ia: transfer learning, sft, few-shot, instruction y domain tuning
+**Actualizado hace poco:** [prueba-tecnica-acme-antonio-cruz](https://github.com/TOTO05-a/prueba-tecnica-acme-antonio-cruz) · [roofing-business-platform](https://github.com/TOTO05-a/roofing-business-platform) · [rag-grafo-finetuning](https://github.com/TOTO05-a/rag-grafo-finetuning)
 <!-- live:end -->
 
-## Stack
+<br>
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,nodejs,express,react,astro,tailwind,postgres,mongodb,docker,git&perline=12" alt="TypeScript, JavaScript, Python, Node.js, Express, React, Astro, Tailwind, PostgreSQL, MongoDB, Docker y Git">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-herramientas-dark.svg?v=ed1">
+  <img src="assets/section-herramientas-light.svg?v=ed1" width="100%" alt="Herramientas">
+</picture>
 
-<sub>También: Qdrant · RAG · n8n · Prisma · Zod · Jest · Vitest · Playwright</sub>
+**Lenguajes** · TypeScript, JavaScript, Python<br>
+**Backend** · Node.js, Express, Prisma, Zod<br>
+**Frontend** · React, Astro, Tailwind<br>
+**Datos e IA** · PostgreSQL, MongoDB, Qdrant, RAG, n8n<br>
+**Calidad y despliegue** · Jest, Vitest, Playwright, Docker, Git
 
-## Contacto
+<br>
 
-[Portafolio](https://toto05-a.github.io) · [LinkedIn](https://www.linkedin.com/in/antonio-cruz-dev) · [anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contacto-dark.svg?v=ed1">
+  <img src="assets/section-contacto-light.svg?v=ed1" width="100%" alt="Contacto">
+</picture>
+
+Estoy buscando mi primer rol como desarrollador y me interesan las prácticas y los proyectos en equipo.
+
+**[Portafolio](https://toto05-a.github.io)** · **[LinkedIn](https://www.linkedin.com/in/antonio-cruz-dev)** · **[anntoniocruz7@gmail.com](mailto:anntoniocruz7@gmail.com)**
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg?v=ed1">
+  <img src="assets/footer-light.svg?v=ed1" width="100%" alt="Fin de la edición">
+</picture>

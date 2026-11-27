@@ -78,3 +78,43 @@ for (const [name, colors] of Object.entries(themes)) {
   console.log(`assets/banner-${name}.svg`);
 }
 console.log({ l1: Math.round(l1.size), l2: Math.round(l2.size), y1: Math.round(y1), y2: Math.round(y2), bottomRule });
+
+// Títulos de sección: etiqueta grande en Anton, nota a la derecha y filete debajo.
+const SECTIONS = {
+  proyectos: ["PROYECTOS", "trabajo reciente"],
+  commits: ["UN AÑO EN COMMITS", "se actualiza cada noche"],
+  herramientas: ["HERRAMIENTAS", "lo que uso a diario"],
+  contacto: ["CONTACTO", "hablemos"],
+};
+const SH = 64;
+const section = (label, note, c) => {
+  const d = font.getPath(label, 0, 42, 34, { kerning: true }).toPathData(1);
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${SH}" width="${W}" height="${SH}" role="img" aria-label="${label.charAt(0) + label.slice(1).toLowerCase()}">
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px;letter-spacing:2px;font-weight:700}</style>
+  <rect x="0" y="6" width="22" height="4" fill="${c.accent}"/>
+  <path d="${d}" fill="${c.ink}"/>
+  <text class="mono" x="${W}" y="42" text-anchor="end" fill="${c.muted}">${note.toUpperCase()}</text>
+  <rect x="0" y="${SH - 6}" width="${W}" height="2" fill="${c.ink}"/>
+</svg>
+`;
+};
+// Cierre de la edición.
+const footer = (c) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} 56" width="${W}" height="56" role="img" aria-label="Fin de la edición">
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px;letter-spacing:2px;font-weight:700}</style>
+  <rect x="0" y="8" width="${W}" height="2" fill="${c.ink}"/>
+  <rect x="0" y="13" width="${W}" height="1" fill="${c.ink}"/>
+  <text class="mono" x="0" y="40" fill="${c.accent}">FIN DE LA EDICIÓN</text>
+  <text class="mono" x="${W / 2}" y="40" text-anchor="middle" fill="${c.muted}">EDUARDO ANTONIO CRUZ BOLAÑOS</text>
+  <text class="mono" x="${W}" y="40" text-anchor="end" fill="${c.muted}" style="letter-spacing:1px;font-weight:400">14.6349° N · 90.5069° O</text>
+</svg>
+`;
+// Las secciones van sobre el fondo de GitHub, así que usan tinta y acento según el tema de la página.
+const pageThemes = {
+  dark: { ink: "#e6edf3", accent: "#5eead4", muted: "#8d96a0" },
+  light: { ink: "#1f2328", accent: "#0f766e", muted: "#59636e" },
+};
+for (const [name, colors] of Object.entries(pageThemes)) {
+  for (const [key, [label, note]] of Object.entries(SECTIONS)) writeFileSync(`assets/section-${key}-${name}.svg`, section(label, note, colors));
+  writeFileSync(`assets/footer-${name}.svg`, footer(colors));
+}
+console.log("secciones y cierre listos");

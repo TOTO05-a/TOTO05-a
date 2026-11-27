@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 56" width="920" height="56" role="img" aria-label="Fin de la edición">
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:12px;letter-spacing:2px;font-weight:700}</style>
+  <rect x="0" y="8" width="920" height="2" fill="#e6edf3"/>
+  <rect x="0" y="13" width="920" height="1" fill="#e6edf3"/>
+  <text class="mono" x="0" y="40" fill="#5eead4">FIN DE LA EDICIÓN</text>
+  <text class="mono" x="460" y="40" text-anchor="middle" fill="#8d96a0">EDUARDO ANTONIO CRUZ BOLAÑOS</text>
+  <text class="mono" x="920" y="40" text-anchor="end" fill="#8d96a0" style="letter-spacing:1px;font-weight:400">14.6349° N · 90.5069° O</text>
+</svg>
